@@ -66,7 +66,7 @@ const Project = ({ project }) => {
               <div className='tecnology' key={technologiesDictionary[icon]}>
                 <img src={technologiesDictionary[icon]} alt={`Tecnology used ${icon}`} />
                 <span />
-                <p>{icon}</p>
+                <p>{icon.toUpperCase()}</p>
               </div>
             ))}
           </div>

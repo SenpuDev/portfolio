@@ -13,8 +13,8 @@
         justify-content: center;
         flex-grow: 1;
         
-        @media (min-width: 768px){
-            width: 95%;
+        @media (min-width: 998px){
+            width: 80%;
             grid-template-rows: none;
             grid-template-columns: 1fr 1fr;
         }

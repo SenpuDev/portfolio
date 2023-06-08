@@ -4,7 +4,10 @@
     align-items: center;
     overflow: hidden;
     justify-content: center;
+    padding-top: 10vh;
     @media (min-width: 998px) {
+        justify-content: unset;
+        padding-top: 15vh;
         height: 100vh;
     }
 }
@@ -19,10 +22,9 @@
 
     @media (min-width: 998px) {
         grid-template-columns: repeat(3, 1fr);
-        width: 90%;
     }
 
-    @media (min-width: 1280px) {
+    @media (min-width: 1620px) {
         width: 65%;
     }
 
