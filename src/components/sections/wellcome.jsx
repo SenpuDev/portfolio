@@ -13,7 +13,7 @@ const Wellcome = () => {
           <p>Hi! I'm know as</p>
           <h1>Senpuu DEV</h1>
           <h2>Front end developer & 3D designer</h2>
-          <p>I am a passionate creator who enjoys both web development and 3D modeling. With a strong affinity for design, I pay meticulous attention to detail. Furthermore, I actively share my knowledge by teaching and imparting classes to others. </p>
+          <p>Passionate creator who enjoys both web development and 3D modeling. With affinity for design, I pay meticulous attention to detail. Furthermore, I actively share my knowledge by teaching and imparting classes to others. </p>
           <p className='break'>Let's collaborate to bring your projects to life! 😄</p>
         </div>
       </div>

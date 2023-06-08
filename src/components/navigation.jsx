@@ -16,7 +16,7 @@ const Navigation = () => {
       <ul className={'navigation ' + (navBarShow ? 'floating ' : '') + (burguerMenu ? 'show-burger-menu' : '')}>
 
         <li className='menu-mobile'>
-          <input checked={burguerMenu} type='checkbox' className='menu-mobile__toggler' onChange={toggle} />
+          <input checked={burguerMenu} type='checkbox' className='menu-mobile__toggler' onChange={toggle} aria-label='Toggle menu' />
           <div className='menu-mobile__burger-icon'>
             <div />
           </div>

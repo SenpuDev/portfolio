@@ -19,6 +19,11 @@
 
     @media (min-width: 998px) {
         grid-template-columns: repeat(3, 1fr);
+        width: 90%;
+    }
+
+    @media (min-width: 1280px) {
+        width: 65%;
     }
 
     &.show {
