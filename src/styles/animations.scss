@@ -1,0 +1,99 @@
+@keyframes lights-up {
+    0% {
+        color: var(--white);
+        text-shadow: 0 0 4rem var(--particles-primary), 0 0 3rem var(--particles-primary), 0 0 2rem var(--particles-primary), 0 0 1rem var(--particles-primary);
+    }
+
+    25% {
+        color: var(--gray);
+        text-shadow: none;
+    }
+
+    50% {
+        color: var(--white);
+        text-shadow: 0 0 4rem var(--particles-primary), 0 0 3rem var(--particles-primary), 0 0 2rem var(--particles-primary), 0 0 1rem var(--particles-primary);
+    }
+
+    75% {
+        color: var(--gray);
+        text-shadow: none;
+    }
+
+    100% {
+        color: var(--white);
+        text-shadow: 0 0 4rem var(--particles-primary), 0 0 3rem var(--particles-primary), 0 0 2rem var(--particles-primary), 0 0 1rem var(--particles-primary);
+    }
+}
+
+@keyframes fade-in-top {
+    from {
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-bottom {
+    from {
+        opacity: 0;
+        transform: translateY(300px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+@keyframes fade-in-left {
+    from {
+        opacity: 0;
+        transform: translateX(300px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    to {opacity: 1;}
+}
+
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fade-in-right-light {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {opacity: 1;}
+}
+
+@keyframes fade-out {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes fade-in-bottom-opacity {
+    from {transform: translateY(300px)}
+    to {transform: translateY(0px)}
+}
+
+@keyframes fade-in-left-opacity {
+    from {transform: translateX(300px)}
+    to {transform: translateX(0px)}
+}
+
+@keyframes fade-in-right-opacity {
+    from {transform: translateX(-300px)}
+    to {transform: translateX(0px)}
+}

@@ -1,0 +1,205 @@
+@import './../variables.scss';
+.navigation {
+    height: 10%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    margin: 0 auto;
+
+    &.show-burger-menu {
+        position: fixed;
+        height: 100%;
+        background-color: rgba($color: black, $alpha: 0.7);
+
+        .nav-item {
+            display: block;
+        }
+    }
+
+    @media (min-width: 768px) {
+        height: auto;
+        width: 100%;
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 4rem 4rem;
+    }
+
+    &.floating {
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        @media (min-width: 768px) {
+            animation-name: fade-in;
+            animation-duration: 4s;
+            -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+            padding: 2rem 2rem 2rem;
+        }
+    }
+
+    .nav-item {
+        all: unset;
+        display: none;
+        color: var(--white);
+        font-family: var(--secondary-font);
+        transition-property: text-shadow;
+        transition-duration: 300ms;
+        font-size: var(--m);
+        span{
+            font-size: var(--m);
+        }
+
+
+
+        @media (min-width: 768px) {
+            display: block;
+            writing-mode: horizontal-tb;
+            transform: scale(1);
+        }
+
+        &:hover {
+            cursor: pointer;
+            text-shadow: 0 0 4rem var(--particles-primary), 0 0 3rem var(--particles-primary), 0 0 2rem var(--particles-primary), 0 0 1rem var(--particles-primary);
+
+            span:before {
+                width: 20px;
+                content: '-- ';
+            }
+        }
+
+        span:before {
+            content: '// ';
+            width: 20px;
+            margin: 0rem 0rem 1rem 0rem;
+
+            @media (min-width: 768px) {
+                margin: 0rem 1rem 0rem 0rem;
+            }
+        }
+    }
+
+
+}
+
+.menu-mobile {
+    $menu-mobile: &;
+    position: absolute;
+    margin-top: 3rem;
+    top: 0;
+    right: 0;
+    z-index: 999;
+
+    @media (min-width: 768px) {
+        display: none;
+    }
+
+    &__toggler {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+        cursor: pointer;
+        width: 60px;
+        height: 60px;
+        opacity: 0;
+
+        &:checked {
+            //ANIMATIONS BURGER MENU
+
+            /* Toggler animate */
+            +#{$menu-mobile}__burger-icon>div {
+                transform: rotate(135deg);
+            }
+
+            /* Turn Lines into X */
+            +#{$menu-mobile}__burger-icon>div:before,
+            +#{$menu-mobile}__burger-icon>div:after {
+                top: 0;
+                transform: rotate(90deg);
+            }
+
+            &:hover {
+
+                /* Rotate on hover when checked */
+                +#{$menu-mobile}__burger-icon>div {
+                    transform: rotate(225deg);
+                }
+            }
+
+            //SHOW MENU
+
+            /* Show menu */
+            // "~" Separates and Select second element of same parent
+            ~.menu {
+                visibility: visible;
+            }
+
+            //Transition background background
+            ~.menu>.menu__background {
+                background-color: rgba($color: black, $alpha: 0.8);
+            }
+
+            //Transition opacity links
+            ~.menu>.menu__background>.navegacion--burger>.navegacion__enlace--burger {
+                opacity: 1;
+            }
+
+        }
+    }
+
+    &__burger-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-50%, -50%);
+        z-index: 999;
+        width: 60px;
+        height: 60px;
+        padding: .5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        /* Hamburger line center */
+        div {
+            position: relative;
+            width: 100%;
+            height: 4px;
+            background-color: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.4s ease;
+
+            /* Top and bottom lines */
+            &::after,
+            &::before {
+                content: '';
+                position: absolute;
+                z-index: 999;
+                top: -10px;
+                width: 100%;
+                height: 4px;
+                background: inherit;
+
+            }
+
+            /* Moves line down */
+            &::after {
+                top: 10px;
+            }
+        }
+    }
+}

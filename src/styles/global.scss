@@ -1,0 +1,87 @@
+@import 'animations.scss';
+@import 'buttons.scss';
+@import 'variables.scss';
+@import './components/navigation.scss';
+@import './components/footer.scss';
+@import './components/header.scss';
+@import './components/particles.scss';
+
+html {
+    height: 100%;
+    overflow: auto;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--background-primary);
+    font-size: var(--fs-m);
+    font-family: var(--main-font);
+    line-height: 1.5;
+    height: 100%;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+span {
+    margin: 0;
+    color: var(--white);
+}
+
+span{
+    font-size: var(--s);
+}
+p{
+    font-size: var(--s);
+    @media (min-width:768px) {
+        font-size: var(--m);        
+    }
+}
+h3{
+    font-size: var(--m);
+    @media (min-width:768px) {
+        font-size: var(--l);        
+    }
+}
+h2{
+    font-size: var(--xl);
+}
+h1{
+    font-size: var(--xxl);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    &:first-of-type {
+        height: 100vh;
+    }
+
+    .title {
+        margin: 0 auto;
+        text-align: center;
+        margin: 2rem 0 5rem 0;
+        text-transform: uppercase;
+    }
+}
+
+.container {
+    width: MIN(95%, 160rem);
+    margin: 0 auto;
+}
+
+.break{
+    margin-top: 1rem;
+}

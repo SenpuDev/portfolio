@@ -1,0 +1,90 @@
+@import url('variables.scss');
+
+// Wrap for buttons
+.button-wrap {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        all: unset;
+    }
+}
+
+//Shiny button
+.button-shine {
+    all: unset;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden; // debug
+    font-size: 1.4rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    text-decoration: none;
+    border: .3rem solid var(--gray);
+    color: var(--white);
+    background: transparent;
+    transition: all .5s;
+
+    &:hover,
+    &.active {
+        border: .3rem solid var(--particles-primary);
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+        left: -100%;
+        pointer-events: none;
+        transition: all 0.65s ease-in-out;
+    }
+
+    &:hover::before {
+        left: 100%;
+    }
+
+}
+
+// Contact Button
+.button-contact {
+    all: unset;
+    width: 80%;
+    padding: 1rem 2rem;
+    border: .3rem solid var(--gray);
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: width .5s ease;
+    position: relative;
+
+    .lord-icon-email {
+        position: absolute;
+        top: -10%;
+        right: 3%;
+        display: none;
+    }
+
+    &:hover,
+    .active {
+        width: 100%;
+        border: .3rem solid var(--particles-primary);
+
+        .lord-icon-email {
+            display: inline;
+            animation: fade-in-right-light .5s;
+        }
+    }
+
+    p {
+        white-space: nowrap;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+    }
+}

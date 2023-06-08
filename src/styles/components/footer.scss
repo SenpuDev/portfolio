@@ -1,0 +1,24 @@
+.footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+
+    a {
+        all: unset;
+        font-size: var(--s);
+        @media (min-width: 768px) {
+            font-size: var(--m);
+        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        color: var(--white);
+        cursor: pointer;
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
