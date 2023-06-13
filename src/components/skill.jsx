@@ -2,6 +2,7 @@ import { useContext } from 'react'
 import { scrollToSection } from '../helpers/scrollToSection'
 import { FiltersContext } from './../context/filters'
 import { ScrollRefsContext } from './../context/scrollRefs'
+import { LanguageContext } from '../context/translate'
 
 const Skill = ({ skill }) => {
   const { title, content, logo, id } = skill
@@ -12,7 +13,8 @@ const Skill = ({ skill }) => {
     setFilters(skillId)
     scrollToSection(projects)
   }
-
+  const { language, webContent } = useContext(LanguageContext)
+  const { showingProjects, showMeProjects } = webContent[language]
   return (
     <div className='skill'>
       <img className='image-skill' src={logo} alt='Skill icon' />
@@ -22,7 +24,7 @@ const Skill = ({ skill }) => {
       </div>
 
       <div className='button-wrap'>
-        <button className={'button-shine ' + (filters === id ? 'active' : '')} onClick={() => handleClick(id)}>{(filters === id ? 'Showing Projects!' : 'Show me projects')}</button>
+        <button className={'button-shine ' + (filters === id ? 'active' : '')} onClick={() => handleClick(id)}>{(filters === id ? showingProjects : showMeProjects)}</button>
       </div>
 
     </div>

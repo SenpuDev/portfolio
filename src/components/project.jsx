@@ -15,6 +15,7 @@ import PhpIcon from './../img/icons/php.svg'
 import UnrealIcon from './../img/icons/unreal.svg'
 import AutodesKIcon from './../img/icons/autodesk.svg'
 
+import { capitalizeFirstChar } from '../helpers/capitalizeFirstChar'
 import useInViewShow from '../hooks/useInViewShow'
 import { preventAction } from '../helpers/preventDefault'
 
@@ -66,7 +67,7 @@ const Project = ({ project }) => {
               <div className='tecnology' key={technologiesDictionary[icon]}>
                 <img src={technologiesDictionary[icon]} alt={`Tecnology used ${icon}`} />
                 <span />
-                <p>{icon.toUpperCase()}</p>
+                <p>{capitalizeFirstChar(icon)}</p>
               </div>
             ))}
           </div>

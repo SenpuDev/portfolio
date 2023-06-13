@@ -1,13 +1,14 @@
 import { useContext } from 'react'
 import { FiltersContext } from './../../context/filters'
+import { LanguageContext } from '../../context/translate'
 
 import Project from '../project'
 
-// JSON
-import projects from './../../json/projects.json'
-
 const Projects = () => {
   const { filters, setFilters } = useContext(FiltersContext)
+  const { language, projectsContent, webContent } = useContext(LanguageContext)
+  const { skillFilterWeb, skillFilterDesign, skillFilterInspire } = webContent[language]
+  const projects = projectsContent[language]
 
   const handleClick = (filterToActivate) => {
     setFilters(filterToActivate)
@@ -17,9 +18,9 @@ const Projects = () => {
     <>
       <div className='projects-list'>
         <div className='filters'>
-          <button className={filters === 1 ? 'active' : ''} onClick={() => handleClick(1)}>Web Develop</button>
-          <button className={filters === 2 ? 'active' : ''} onClick={() => handleClick(2)}>3D & Design</button>
-          <button className={filters === 3 ? 'active' : ''} onClick={() => handleClick(3)}>Learning Achievements</button>
+          <button className={filters === 1 ? 'active' : ''} onClick={() => handleClick(1)}>{skillFilterWeb}</button>
+          <button className={filters === 2 ? 'active' : ''} onClick={() => handleClick(2)}>{skillFilterDesign}</button>
+          <button className={filters === 3 ? 'active' : ''} onClick={() => handleClick(3)}>{skillFilterInspire}</button>
         </div>
 
         {projects.map((project) => {

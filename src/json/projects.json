@@ -1,103 +1,206 @@
-[
-    {
-        "title": "GuitarJam",
-        "type": "FullStack Project",
-        "description": "Built with React - Remix Run (SSR). Simulation of a guitar store with dynamic content fetched from a own Strapi API. Available in both English and Spanish, with content that can vary dinamically thanks to the implementation of 'Internationalization'.",
-        "extracomment": "If deployed app takes a bit on obtain data please be patient. I'm using free deploy plans so sometimes it takes a while.",
-        "cardimage": "img-projects/guitar-jam.webp",
-        "cardtext": "Visit Project",
-        "techicons": [
-            "javascript",
-            "css3",
-            "remix",
-            "strapi"
-        ],
-        "github": "https://github.com/SenpuDev/GuitarJAM",
-        "deploy": "https://guitar-jam.vercel.app/",
-        "category": 1
-    },
-    {
-        "title": "Strapi for GuitarJam",
-        "type": "Backend Project",
-        "description": "API built from strapi, with a postgres database hosted on the server. Mainly built to practice building API's in a simple way and feed 'guitarjam' frontend (upload soon on github pages). For sure, it can run any CRUD action with the proper permissions.",
-        "cardimage": "img-projects/strapi.webp",
-        "cardtext": "Visit Project",
-        "techicons": [
-            "postgresql",
-            "strapi"
-        ],
-        "github": "https://github.com/SenpuDev/guitarjam-strapi",
-        "deploy": "https://guitarjam-strapi.onrender.com/",
-        "category": 1
-    },
-    {
-        "title": "Coin Checkr",
-        "type": "FrontEnd Project",
-        "description": "Coin checkr shows the value of our currency (EUR, USD, GBP...) in the current cryptocurrency market (Bitcoin, Cardano, OKB...). It uses the cryptocompare API for real-time queries.",
-        "cardimage": "img-projects/coin-checkr.webp",
-        "cardtext": "Visit Project",
-        "techicons": [
-            "react",
-            "styledcomponents"
-        ],
-        "github": "https://github.com/SenpuDev/coin-checkr",
-        "deploy": "https://senpudev.github.io/coin-checkr/",
-        "category": 1
-    },
-    {
-        "title": "SKOMIA Videogame development",
-        "type": "Videogame development",
-        "description": "Original character & development for Skomia videogame. Since character concept until integration to graphic engine including modelling, texturing, rigging and animations.",
-        "cardimage": "img-projects/skomia.webp",
-        "cardtext": "Explore Project",
-        "techicons": [
-            "autodesk",
-            "unreal"
-        ],
-        "deploy": "https://www.artstation.com/artwork/v55d6",
-        "category": 2
-    },
-    {
-        "title": "Plasma Rifle Modelling",
-        "type": "3D Modelling",
-        "description": "Redesign of multiplasma rifle from Fallout series. Modelling, texturing and retopology for graphic engine integration.",
-        "cardimage": "img-projects/fallout.webp",
-        "cardtext": "Explore Project",
-        "techicons": [
-            "autodesk"
-        ],
-        "deploy": "https://www.artstation.com/artwork/v55d6",
-        "category": 2
-    },
-    {
-        "title": "Empowering Youth in Programming & Design",
-        "type": "Experience",
-        "description": "Through 5 years of dedicated work, I have empowered young individuals in the realms of programming and design, fostering their passion and equipping them with the tools to succeed in the dynamic and ever-expanding digital arena.",
-        "cardimage": "img-projects/teaching-years.webp",
-        "extracomment": "https://mmmacademy.es/",
-        "techicons": [],
-        "category": 3
-    },
-    {
-        "title": "Technovation Challenge Mentor",
-        "type": "Teaching achievement",
-        "description": "Mentor during Technovation Challenge 2019 with O2Save, guiding young participants in developing a mobile application aimed at environmental protection. Their exceptional programming skills led them to win the Best Programming Award in the Murcia region.",
-        "cardimage": "img-projects/technovation.webp",
-        "cardtext": "Read news",
-        "extracomment": "https://technovationchallenge.org/",
-        "techicons": [],
-        "deploy": "https://www.murcia.com/noticias/2019/05/19-una-aplicacion-creada-por-estudiantes-para-la-mejora-de-la-calidad-del-aire-consigue-el-i-premio-ciudad-de-murcia.asp",
-        "category": 3
-    },
-    {
-        "title": "Hackaton 2020 Cori Mentoring",
-        "type": "Teaching achievement",
-        "description": "Mentor of the talented young participants invited to the Cori Hackathon 2020, where they showcased a remarkable augmented reality app to raise awareness about the significance of our oceans.",
-        "cardimage": "img-projects/cori.webp",
-        "cardtext": "Read news",
-        "extracomment": "https://cori.institute/",
-        "techicons": [],
-        "deploy": "https://mmmacademy.es/cori-2020/",
-        "category": 3
-    }
-]
+{
+    "en": [
+        {
+            "title": "GuitarJam",
+            "type": "FullStack Project",
+            "description": "Built with React - Remix Run (SSR). Simulation of a guitar store with dynamic content fetched from a own Strapi API. Available in both English and Spanish, with content that can vary dinamically thanks to the implementation of 'Internationalization'.",
+            "extracomment": "If deployed app takes a bit on obtain data please be patient. I'm using free deploy plans so sometimes it takes a while.",
+            "cardimage": "img-projects/guitar-jam.webp",
+            "cardtext": "Visit Project",
+            "techicons": [
+                "javascript",
+                "css3",
+                "remix"
+            ],
+            "github": "https://github.com/SenpuDev/GuitarJAM",
+            "deploy": "https://guitar-jam.vercel.app/",
+            "category": 1
+        },
+        {
+            "title": "Strapi for GuitarJam",
+            "type": "Backend Project",
+            "description": "API built from strapi, with a postgres database hosted on the server. Mainly built to practice building API's in a simple way and feed 'guitarjam' frontend (upload soon on github pages). For sure, it can run any CRUD action with the proper permissions.",
+            "cardimage": "img-projects/strapi.webp",
+            "cardtext": "Visit Project",
+            "techicons": [
+                "postgresql",
+                "strapi"
+            ],
+            "github": "https://github.com/SenpuDev/guitarjam-strapi",
+            "deploy": "https://guitarjam-strapi.onrender.com/",
+            "category": 1
+        },
+        {
+            "title": "Coin Checkr",
+            "type": "FrontEnd Project",
+            "description": "Coin checkr shows the value of our currency (EUR, USD, GBP...) in the current cryptocurrency market (Bitcoin, Cardano, OKB...). It uses the cryptocompare API for real-time queries.",
+            "cardimage": "img-projects/coin-checkr.webp",
+            "cardtext": "Visit Project",
+            "techicons": [
+                "react",
+                "styledcomponents"
+            ],
+            "github": "https://github.com/SenpuDev/coin-checkr",
+            "deploy": "https://senpudev.github.io/coin-checkr/",
+            "category": 1
+        },
+        {
+            "title": "SKOMIA Videogame development",
+            "type": "Videogame development",
+            "description": "Original character & development for Skomia videogame. Since character concept until integration to graphic engine including modelling, texturing, rigging and animations.",
+            "cardimage": "img-projects/skomia.webp",
+            "cardtext": "Explore Project",
+            "techicons": [
+                "autodesk",
+                "unreal"
+            ],
+            "deploy": "https://www.artstation.com/artwork/v55d6",
+            "category": 2
+        },
+        {
+            "title": "Plasma Rifle Modelling",
+            "type": "3D Modelling",
+            "description": "Redesign of multiplasma rifle from Fallout series. Modelling, texturing and retopology for graphic engine integration.",
+            "cardimage": "img-projects/fallout.webp",
+            "cardtext": "Explore Project",
+            "techicons": [
+                "autodesk"
+            ],
+            "deploy": "https://www.artstation.com/artwork/v55d6",
+            "category": 2
+        },
+        {
+            "title": "Empowering Youth in Programming & Design",
+            "type": "Experience",
+            "description": "Through 5 years of dedicated work, I have empowered young individuals in the realms of programming and design, fostering their passion and equipping them with the tools to succeed in the dynamic and ever-expanding digital arena.",
+            "cardimage": "img-projects/teaching-years.webp",
+            "extracomment": "https://mmmacademy.es/",
+            "techicons": [],
+            "category": 3
+        },
+        {
+            "title": "Technovation Challenge Mentor",
+            "type": "Teaching achievement",
+            "description": "Mentor during Technovation Challenge 2019 with O2Save, guiding young participants in developing a mobile application aimed at environmental protection. Their exceptional programming skills led them to win the Best Programming Award in the Murcia region.",
+            "cardimage": "img-projects/technovation.webp",
+            "cardtext": "Read news",
+            "extracomment": "https://technovationchallenge.org/",
+            "techicons": [],
+            "deploy": "https://www.murcia.com/noticias/2019/05/19-una-aplicacion-creada-por-estudiantes-para-la-mejora-de-la-calidad-del-aire-consigue-el-i-premio-ciudad-de-murcia.asp",
+            "category": 3
+        },
+        {
+            "title": "Hackaton 2020 Cori Mentoring",
+            "type": "Teaching achievement",
+            "description": "Mentor of the talented young participants invited to the Cori Hackathon 2020, where they showcased a remarkable augmented reality app to raise awareness about the significance of our oceans.",
+            "cardimage": "img-projects/cori.webp",
+            "cardtext": "Read news",
+            "extracomment": "https://cori.institute/",
+            "techicons": [],
+            "deploy": "https://mmmacademy.es/cori-2020/",
+            "category": 3
+        }
+    ],
+    "es": [
+        {
+            "title": "GuitarJam",
+            "type": "Proyecto FullStack",
+            "description": "Construido con React - Remix Run (SSR). Simulación de una tienda de guitarras con contenido dinámico obtenido de una API propia de Strapi. Disponible en inglés y español, con contenido que puede variar dinámicamente gracias a la implementación de 'Internacionalización'.",
+            "extracomment": "Si la aplicación desplegada tarda un poco en obtener datos, por favor, ten paciencia. Estoy utilizando planes de despliegue gratuitos, por lo que a veces lleva un tiempo.",
+            "cardimage": "img-projects/guitar-jam.webp",
+            "cardtext": "Visitar Proyecto",
+            "techicons": [
+                "javascript",
+                "css3",
+                "remix"
+            ],
+            "github": "https://github.com/SenpuDev/GuitarJAM",
+            "deploy": "https://guitar-jam.vercel.app/",
+            "category": 1
+        },
+        {
+            "title": "Strapi para GuitarJam",
+            "type": "Proyecto Backend",
+            "description": "API construida con Strapi y una base de datos de PostgreSQL alojada en el servidor. Principalmente construida para practicar la creación de una API de manera sencilla y alimentar el frontend de \"GuitarJam\". Puede realizar cualquier acción CRUD con los permisos adecuados.",
+            "cardimage": "img-projects/strapi.webp",
+            "cardtext": "Visitar Proyecto",
+            "techicons": [
+                "postgresql",
+                "strapi"
+            ],
+            "github": "https://github.com/SenpuDev/guitarjam-strapi",
+            "deploy": "https://guitarjam-strapi.onrender.com/",
+            "category": 1
+        },
+        {
+            "title": "Coin Checkr",
+            "type": "Proyecto FrontEnd",
+            "description": "Coin checkr es una aplicación que consulta el valor de monedas (EUR, USD, GBP...) en el mercado actual de criptomonedas (Bitcoin, Cardano, OKB...). Utiliza la API de cryptocompare para consultas en tiempo real.",
+            "cardimage": "img-projects/coin-checkr.webp",
+            "cardtext": "Visitar Proyecto",
+            "techicons": [
+                "react",
+                "styledcomponents"
+            ],
+            "github": "https://github.com/SenpuDev/coin-checkr",
+            "deploy": "https://senpudev.github.io/coin-checkr/",
+            "category": 1
+        },
+        {
+            "title": "Desarrollo de videojuego SKOMIA",
+            "type": "Desarrollo de videojuegos",
+            "description": "Personaje original y desarrollo para el videojuego Skomia. Desde el diseño del personaje hasta la integración en el motor gráfico, incluyendo modelado, texturizado, rigging y animaciones.",
+            "cardimage": "img-projects/skomia.webp",
+            "cardtext": "Explorar Proyecto",
+            "techicons": [
+                "autodesk",
+                "unreal"
+            ],
+            "deploy": "https://www.artstation.com/artwork/v55d6",
+            "category": 2
+        },
+        {
+            "title": "Modelado de Rifle de Plasma",
+            "type": "Modelado 3D",
+            "description": "Rediseño del rifle de plasma multicapa de la serie Fallout. Modelado, texturizado y retopología para su integración en el motor gráfico.",
+            "cardimage": "img-projects/fallout.webp",
+            "cardtext": "Explorar Proyecto",
+            "techicons": [
+                "autodesk"
+            ],
+            "deploy": "https://www.artstation.com/artwork/v55d6",
+            "category": 2
+        },
+        {
+            "title": "Formador en Programación y Diseño",
+            "type": "Experiencia",
+            "description": "Más de 5 años de experiencia formando a jovenes y adultos en los ámbitos de la programación y el diseño, fomentando su pasión y preparandolos en el campo digital.",
+            "cardimage": "img-projects/teaching-years.webp",
+            "extracomment": "https://mmmacademy.es/",
+            "techicons": [],
+            "category": 3
+        },
+        {
+            "title": "Mentor del Desafío Technovation",
+            "type": "Logro en la Enseñanza",
+            "description": "Mentor durante el Desafío Technovation 2019 con O2Save, guiando a los participantes en el desarrollo de una aplicación móvil dirigida a la protección del medio ambiente. Su aplicación se llevo el Premio a la Mejor Programación en la región de Murcia 🙌",
+            "cardimage": "img-projects/technovation.webp",
+            "cardtext": "Leer Noticia",
+            "extracomment": "https://technovationchallenge.org/",
+            "techicons": [],
+            "deploy": "https://www.murcia.com/noticias/2019/05/19-una-aplicacion-creada-por-estudiantes-para-la-mejora-de-la-calidad-del-aire-consigue-el-i-premio-ciudad-de-murcia.asp",
+            "category": 3
+        },
+        {
+            "title": "Mentor de Cori Hackathon 2020",
+            "type": "Logro en la Enseñanza",
+            "description": "Mentor de los participantes invitados al Hackathon Cori 2020, donde presentaron una aplicación de realidad aumentada para crear consciencia sobre la importancia de los océanos.",
+            "cardimage": "img-projects/cori.webp",
+            "cardtext": "Leer Noticia",
+            "extracomment": "https://cori.institute/",
+            "techicons": [],
+            "deploy": "https://mmmacademy.es/cori-2020/",
+            "category": 3
+        }
+    ]
+}

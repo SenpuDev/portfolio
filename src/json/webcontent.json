@@ -1,0 +1,82 @@
+{
+    "en": {
+        "navWellcome": "Wellcome",
+        "navSkills": "Skills",
+        "navProjects": "Projects",
+        "navContact": "Contact",
+        "wellHi": "Hi! I'm know as",
+        "wellShortDescription": "Front end developer & 3D designer",
+        "wellLongDescription": "Passionate creator who enjoys both web development and 3D modeling. With affinity for design, I pay meticulous attention to detail. Furthermore, I actively share my knowledge by teaching and imparting classes to others.",
+        "wellLetsColaborate": "Let's collaborate to bring your projects to life! 😄",
+        "skillFilterWeb": "Web Develop",
+        "skillFilterDesign": "3D & Design",
+        "skillFilterInspire": "Teaching Achievements",
+        "showingProjects": "Showing...",
+        "showMeProjects": "Show me Projects",
+        "skills": [
+            {
+                "id": 1,
+                "logo": "img-skills/build-skill.svg",
+                "title": "Frontend Developer",
+                "content": "Developing focused on Vanilla JS, React and styling with CSS & SASS. Creating user-friendly web applications with attention to detail and clean code."
+            },
+            {
+                "id": 2,
+                "logo": "img-skills/design-skill.svg",
+                "title": "3D Modelling & Design",
+                "content": "As I have mentioned before my passion is creation. While I often design interfaces, I also delve into 3D character and asset design. Take a look at my portfolio to explore my design creations."
+            },
+            {
+                "id": 3,
+                "logo": "img-skills/inspire-skill.svg",
+                "title": "Software Dev Teacher",
+                "content": "Experienced software development teacher specializing in 3D design and programming. Guiding, mentoring and imparting skills in both 3D modeling and programming."
+            }
+        ],
+        "contactTitle": "Get in touch",
+        "contactContent": "Feel free to reach out by sending me an email or saying hello on my social networks. Let's discuss your project and bring your vision to life together.",
+        "contactColaborate": "I look forward to connecting with you and exploring how we can collaborate!🙂",
+        "contactOr": "or",
+        "contactSendEmail": "Send me an email!"
+    },
+    "es": {
+        "navWellcome": "Bienvenido",
+        "navSkills": "Habilidades",
+        "navProjects": "Proyectos",
+        "navContact": "Contacto",
+        "wellHi": "¡Hola! Al habla",
+        "wellShortDescription": "Desarrollador de Frontend y Diseñador 3D",
+        "wellLongDescription": "Desde siempre he disfrutado crear y ello me ha llevado a dedicarme a lo que me apasiona. Actualmente comparto mis conocimientos a los más jóvenes para que ellos tambien aprendan lo apasionante del mundo del desarrollo.",
+        "wellLetsColaborate": "¡Colaboremos para dar vida a tus proyectos! 😄",
+        "skillFilterWeb": "Desarrollo Web",
+        "skillFilterDesign": "3D & Diseño",
+        "skillFilterInspire": "Experiencia docente",
+        "showingProjects": "Mostrando...",
+        "showMeProjects": "Ver proyectos",
+        "skills": [
+            {
+                "id": 1,
+                "logo": "img-skills/build-skill.svg",
+                "title": "Desarrollador Frontend",
+                "content": "Actualmente estoy enfocado programando directamente en Vanilla JS o usando React como framework. Combinandolos con SASS, siempre intento prestar mucha atencion a la creacion de web \"amigables\" y atractivas para el usuario."
+            },
+            {
+                "id": 2,
+                "logo": "img-skills/design-skill.svg",
+                "title": "Modelador y Diseñador 3D",
+                "content": "Como he mencionado, mi pasión es crear. También me encanta diseñar elementos o incluso personajes en 3D. ¡Echa un vistazo a mi portafolio para explorar mis creaciones!"
+            },
+            {
+                "id": 3,
+                "logo": "img-skills/inspire-skill.svg",
+                "title": "Profesor de Desarrollo de Software",
+                "content": "Tengo varios años de experiencia como profesor de desarrollo de software. Guiando tanto a jovenes como a adultos en su camino del aprendizaje en el mundo de las tecnologias."
+            }
+        ],
+        "contactTitle": "Ponte en contacto",
+        "contactContent": "Comentame tu proyecto y hagamoslo realidad. No dudes contactarme mediante alguno de los siguientes enlaces.",
+        "contactColaborate": "¡Espero con interés conocerte y explorar cómo podemos colaborar!🙂",
+        "contactOr": "o",
+        "contactSendEmail": "¡Envíame un correo!"
+    }
+}

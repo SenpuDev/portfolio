@@ -1,20 +1,23 @@
 import Portrait from './../../components/portrait'
 import useInViewShow from '../../hooks/useInViewShow'
 
+import { useContext } from 'react'
+import { LanguageContext } from '../../context/translate'
 const Wellcome = () => {
   const { elementToObserve, isInView } = useInViewShow()
-
+  const { language, webContent } = useContext(LanguageContext)
+  const { wellHi, wellShortDescription, wellLongDescription, wellLetsColaborate } = webContent[language]
   return (
     <>
       <div className='content container' ref={elementToObserve}>
         <Portrait isVisible={isInView} />
 
         <div className={'presentation ' + (isInView ? 'show' : '')}>
-          <p>Hi! I'm know as</p>
+          <p>{wellHi}</p>
           <h1>Senpuu DEV</h1>
-          <h2>Front end developer & 3D designer</h2>
-          <p>Passionate creator who enjoys both web development and 3D modeling. With affinity for design, I pay meticulous attention to detail. Furthermore, I actively share my knowledge by teaching and imparting classes to others. </p>
-          <p className='break'>Let's collaborate to bring your projects to life! 😄</p>
+          <h2>{wellShortDescription}</h2>
+          <p>{wellLongDescription}</p>
+          <p className='break'>{wellLetsColaborate}</p>
         </div>
       </div>
 

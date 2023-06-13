@@ -13,11 +13,14 @@
     gap: 2rem;
     justify-content: center;
     margin: 0 auto;
+    padding: 0;
 
     &.show-burger-menu {
         position: fixed;
+        top: 0;
+        left: 0;
         height: 100%;
-        background-color: rgba($color: black, $alpha: 0.7);
+        background-color: rgba($color: black, $alpha: 0.8);
 
         .nav-item {
             display: block;
@@ -25,13 +28,12 @@
     }
 
     @media (min-width: 768px) {
+        position: relative;
         height: auto;
-        width: 100%;
         flex-direction: row;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 4rem 4rem 4rem;
     }
 
     &.floating {
@@ -51,18 +53,25 @@
     .nav-item {
         all: unset;
         display: none;
-        color: var(--white);
         font-family: var(--secondary-font);
         transition-property: text-shadow;
+        color: var(--white);
         transition-duration: 300ms;
-        font-size: var(--m);
+        font-size: var(--l2);
+
         span{
             font-size: var(--m);
         }
-
-
-
+        
         @media (min-width: 768px) {
+            font-size: var(--m);
+            display: block;
+            writing-mode: horizontal-tb;
+            transform: scale(1);
+        }
+
+        @media (min-width: 1280px) {
+            font-size: var(--l2);
             display: block;
             writing-mode: horizontal-tb;
             transform: scale(1);
@@ -83,9 +92,7 @@
             width: 20px;
             margin: 0rem 0rem 1rem 0rem;
 
-            @media (min-width: 768px) {
-                margin: 0rem 1rem 0rem 0rem;
-            }
+
         }
     }
 

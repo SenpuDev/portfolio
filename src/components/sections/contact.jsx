@@ -1,17 +1,21 @@
 import GitHubIcon from './../../img/icons/github.svg'
 import LinkedInIcon from './../../img/icons/linkedin.svg'
 import useInViewShow from '../../hooks/useInViewShow'
+import { LanguageContext } from '../../context/translate'
+import { useContext } from 'react'
 
 const Contact = () => {
   const { elementToObserve, isInView } = useInViewShow()
+  const { language, webContent } = useContext(LanguageContext)
+  const { contactTitle, contactContent, contactColaborate, contactOr, contactSendEmail } = webContent[language]
   return (
     <>
       <div className={isInView ? 'container-80 show' : 'container-80'} ref={elementToObserve}>
-        <h2 className='title'>Get in touch</h2>
+        <h2 className='title'>{contactTitle}</h2>
         <div className='container'>
           <div className='get-in-touch'>
-            <p className='get-in-touch__content'>Feel free to reach out by sending me an email or saying hello on my social networks. Let's discuss your project and bring your vision to life together.</p>
-            <p className='break'>I look forward to connecting with you and exploring how we can collaborate!🙂</p>
+            <p className='get-in-touch__content'>{contactContent}</p>
+            <p className='break'>{contactColaborate}</p>
             <div className='links'>
               <a target='_blank' href='https://www.linkedin.com/in/senpudev/' aria-label='Visit my page on linkedIn' rel='noreferrer' className='link'>
                 <img src={LinkedInIcon} alt='' />
@@ -22,11 +26,11 @@ const Contact = () => {
             </div>
 
           </div>
-          <p className='get-in-touch__faster'>or</p>
+          <p className='get-in-touch__faster'>{contactOr}</p>
           <div className='button-wrap'>
             <a href='mailto:senpuudev@gmail.com'>
               <button className='button-contact'>
-                <p>Send me an email!</p>
+                <p>{contactSendEmail}</p>
                 <div className='lord-icon-email'>
                   <lord-icon
                     src='https://cdn.lordicon.com/rhvddzym.json'

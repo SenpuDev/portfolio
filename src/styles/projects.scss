@@ -13,6 +13,9 @@
         @media (min-width:768px) {
           font-size: var(--m);
         }
+        @media (min-width:1640px) {
+          font-size: var(--l);        
+      }
         color: var(--gray);
         transition: all .5s ease;
   

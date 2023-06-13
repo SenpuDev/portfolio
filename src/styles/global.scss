@@ -45,11 +45,17 @@ p{
     @media (min-width:768px) {
         font-size: var(--m);        
     }
+    @media (min-width:1640px) {
+        font-size: var(--l);        
+    }
 }
 h3{
     font-size: var(--m);
     @media (min-width:768px) {
         font-size: var(--l);        
+    }
+    @media (min-width:1640px) {
+        font-size: var(--xxl);        
     }
 }
 h2{
@@ -57,6 +63,9 @@ h2{
 }
 h1{
     font-size: var(--xxl);
+    @media (min-width:1640px) {
+        font-size: var(--xxxl);        
+    }
 }
 
 img {

@@ -4,6 +4,7 @@ import { ScrollRefsContext } from './../context/scrollRefs'
 import { useNavBar } from './../hooks/useNavBar'
 import { scrollToSection } from '../helpers/scrollToSection'
 import useToggleMenu from '../hooks/useToggleMenu'
+import { LanguageContext } from '../context/translate'
 
 const Navigation = () => {
   // Custom Hook - NavBarLogic
@@ -11,6 +12,8 @@ const Navigation = () => {
   const { navBarShow } = useNavBar()
   const { wellcome, skills, projects, contact } = useContext(ScrollRefsContext)
 
+  const { language, webContent } = useContext(LanguageContext)
+  const { navWellcome, navSkills, navProjects, navContact } = webContent[language]
   return (
     <>
       <ul className={'navigation ' + (navBarShow ? 'floating ' : '') + (burguerMenu ? 'show-burger-menu' : '')}>
@@ -24,19 +27,19 @@ const Navigation = () => {
 
         <li className='nav-item' onClick={() => [scrollToSection(wellcome), burguerMenu && toggle()]}>
           <span />
-          Wellcome
+          {navWellcome}
         </li>
         <li className='nav-item' onClick={() => [scrollToSection(skills), burguerMenu && toggle()]}>
           <span />
-          Skills
+          {navSkills}
         </li>
         <li className='nav-item' onClick={() => [scrollToSection(projects), burguerMenu && toggle()]}>
           <span />
-          Projects
+          {navProjects}
         </li>
         <li className='nav-item' onClick={() => [scrollToSection(contact), burguerMenu && toggle()]}>
           <span />
-          Contact
+          {navContact}
         </li>
       </ul>
     </>

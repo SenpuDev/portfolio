@@ -5,7 +5,6 @@ import { ScrollRefsContext } from './context/scrollRefs'
 
 // Sections - Components
 import Header from './components/header'
-import Navigation from './components/navigation'
 import Wellcome from './components/sections/wellcome'
 import Projects from './components/sections/projects'
 import Contact from './components/sections/contact'
@@ -18,7 +17,6 @@ function App () {
   return (
     <>
       <Header />
-      <Navigation />
 
       <main>
         <section className='wellcome' ref={wellcome}>
