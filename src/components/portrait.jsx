@@ -7,15 +7,14 @@ import LearnIMG from './../img/portrait/03_Learning.webp'
 import LearnIcon from './../img/portrait/03_LearningIcon.svg'
 
 import { scrollToSection } from '../helpers/scrollToSection'
-import { ScrollRefsContext } from '../context/scrollRefs'
-import { useContext } from 'react'
+import useScrollRefs from '../hooks/useContext/useScrollRefs'
 
 const Portrait = (isInView) => {
-  const { skills } = useContext(ScrollRefsContext)
+  const { skills } = useScrollRefs()
   return (
     <div className={'portrait ' + (isInView ? 'show' : '')}>
       <div className='skill'>
-        <img className='background' src={PortraitIMG} alt='' />
+        <img className='background' src={PortraitIMG} alt='Photo of me' />
       </div>
       <div className='skill' onClick={() => scrollToSection(skills)}>
         <img className='background' src={BuilIMG} alt='Build and coding work' />

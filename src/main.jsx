@@ -4,7 +4,7 @@ import App from './App.jsx'
 
 import { FiltersProvider } from './context/filters.jsx'
 import { ScrollRefsProvider } from './context/scrollRefs.jsx'
-import { LanguageProvider } from './context/translate.jsx'
+import { LanguageProvider } from './context/language.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>

@@ -1,11 +1,11 @@
 import Portrait from './../../components/portrait'
 import useInViewShow from '../../hooks/useInViewShow'
 
-import { useContext } from 'react'
-import { LanguageContext } from '../../context/translate'
+import useLanguage from '../../hooks/useContext/useLanguage'
+
 const Wellcome = () => {
   const { elementToObserve, isInView } = useInViewShow()
-  const { language, webContent } = useContext(LanguageContext)
+  const { language, webContent } = useLanguage()
   const { wellHi, wellShortDescription, wellLongDescription, wellLetsColaborate } = webContent[language]
   return (
     <>

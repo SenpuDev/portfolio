@@ -1,20 +1,21 @@
-import { useContext } from 'react'
 import { scrollToSection } from '../helpers/scrollToSection'
-import { FiltersContext } from './../context/filters'
-import { ScrollRefsContext } from './../context/scrollRefs'
-import { LanguageContext } from '../context/translate'
+import useFilters from '../hooks/useContext/useFilters'
+import useScrollRefs from '../hooks/useContext/useScrollRefs'
+import useLanguage from '../hooks/useContext/useLanguage'
 
 const Skill = ({ skill }) => {
   const { title, content, logo, id } = skill
-  const { filters, setFilters } = useContext(FiltersContext)
-  const { projects } = useContext(ScrollRefsContext)
+  const { filters, setFilters } = useFilters()
+  const { projects } = useScrollRefs()
+
+  const { language, webContent } = useLanguage()
+  const { showingProjects, showMeProjects } = webContent[language]
 
   const handleClick = (skillId) => {
     setFilters(skillId)
     scrollToSection(projects)
   }
-  const { language, webContent } = useContext(LanguageContext)
-  const { showingProjects, showMeProjects } = webContent[language]
+
   return (
     <div className='skill'>
       <img className='image-skill' src={logo} alt='Skill icon' />

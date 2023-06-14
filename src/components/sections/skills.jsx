@@ -1,11 +1,10 @@
 import Skill from '../skill'
 import useInViewShow from '../../hooks/useInViewShow'
-import { useContext } from 'react'
-import { LanguageContext } from '../../context/translate'
+import useLanguage from '../../hooks/useContext/useLanguage'
 
 const Skills = () => {
   const { elementToObserve, isInView } = useInViewShow()
-  const { language, webContent } = useContext(LanguageContext)
+  const { language, webContent } = useLanguage()
   const { skills, skillsTitle } = webContent[language]
 
   return (

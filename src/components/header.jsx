@@ -1,10 +1,9 @@
 import Logo from './../img/senpuLogo.webp'
-import { LanguageContext } from '../context/translate'
-import { useContext } from 'react'
 import Navigation from './navigation'
+import useLanguage from '../hooks/useContext/useLanguage'
 
 const Header = () => {
-  const { language, toggleLanguage } = useContext(LanguageContext)
+  const { language, toggleLanguage } = useLanguage()
 
   const handleChange = () => {
     toggleLanguage()

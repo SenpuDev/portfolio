@@ -1,12 +1,10 @@
-import { useContext } from 'react'
-import { FiltersContext } from './../../context/filters'
-import { LanguageContext } from '../../context/translate'
-
 import Project from '../project'
+import useLanguage from '../../hooks/useContext/useLanguage'
+import useFilters from '../../hooks/useContext/useFilters'
 
 const Projects = () => {
-  const { filters, setFilters } = useContext(FiltersContext)
-  const { language, projectsContent, webContent } = useContext(LanguageContext)
+  const { filters, setFilters } = useFilters()
+  const { language, projectsContent, webContent } = useLanguage()
   const { skillFilterWeb, skillFilterDesign, skillFilterInspire } = webContent[language]
   const projects = projectsContent[language]
 

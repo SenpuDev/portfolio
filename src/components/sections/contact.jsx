@@ -1,12 +1,11 @@
 import GitHubIcon from './../../img/icons/github.svg'
 import LinkedInIcon from './../../img/icons/linkedin.svg'
 import useInViewShow from '../../hooks/useInViewShow'
-import { LanguageContext } from '../../context/translate'
-import { useContext } from 'react'
+import useLanguage from '../../hooks/useContext/useLanguage'
 
 const Contact = () => {
   const { elementToObserve, isInView } = useInViewShow()
-  const { language, webContent } = useContext(LanguageContext)
+  const { language, webContent } = useLanguage()
   const { contactTitle, contactContent, contactColaborate, contactOr, contactSendEmail } = webContent[language]
   return (
     <>

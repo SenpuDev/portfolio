@@ -35,6 +35,9 @@
             margin: 0 auto;
             position: relative;
             
+            @media (min-width: 998px){
+                height: 60%;
+            }
             &.show{
                 opacity: 1;
                 animation-name: fade-in-top;
