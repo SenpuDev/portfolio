@@ -1,8 +1,5 @@
 import './styles/styles.scss'
 
-import { useContext } from 'react'
-import { ScrollRefsContext } from './context/scrollRefs'
-
 // Sections - Components
 import Header from './components/header'
 import Wellcome from './components/sections/wellcome'
@@ -11,15 +8,16 @@ import Contact from './components/sections/contact'
 import Skills from './components/sections/skills'
 import Footer from './components/footer'
 import ParticlesBG from './components/particles-bg.jsx'
+import useScrollRefs from './hooks/useContext/useScrollRefs'
 
 function App () {
-  const { wellcome, skills, projects, contact } = useContext(ScrollRefsContext)
+  const { skills, projects, contact } = useScrollRefs()
   return (
     <>
       <Header />
 
       <main>
-        <section className='wellcome' ref={wellcome}>
+        <section className='wellcome'>
           <Wellcome />
         </section>
 
