@@ -1,0 +1,1 @@
+const c=d=>{const o=(t,s)=>d.load(t,s);o.load=(t,s,r)=>{d.loadJSON(t,s).then(l=>{l&&r(l)}).catch(()=>{r(void 0)})},o.setOnClickHandler=t=>{d.setOnClickHandler(t)};const a=d.dom();return{particlesJS:o,pJSDom:a}};export{c as i};
