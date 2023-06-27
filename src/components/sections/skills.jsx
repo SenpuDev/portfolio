@@ -13,7 +13,7 @@ const Skills = () => {
       <div className={'skill-list ' + (isInView ? 'show' : '')} ref={elementToObserve}>
 
         {skills.map(skill =>
-          <Skill skill={skill} key={skill.id} />
+          <Skill skill={skill} key={skill.id} isInView={isInView} />
         )}
       </div>
     </>

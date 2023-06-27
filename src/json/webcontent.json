@@ -16,19 +16,19 @@
         "skills": [
             {
                 "id": 1,
-                "logo": "img-skills/build-skill.svg",
+                "logo": "https://prod.spline.design/vKlhNQ-AphcP6Axa/scene.splinecode",
                 "title": "Frontend Developer",
                 "content": "Developing focused on Vanilla JS, React and styling with CSS & SASS. Creating user-friendly web applications with attention to detail and clean code."
             },
             {
                 "id": 2,
-                "logo": "img-skills/design-skill.svg",
+                "logo": "https://prod.spline.design/uu7F3ZhDtYtb5iAw/scene.splinecode",
                 "title": "3D Modelling & Design",
-                "content": "As I have mentioned before my passion is creation. While I often design interfaces, I also delve into 3D character and asset design. Take a look at my portfolio to explore my design creations."
+                "content": "As I have mentioned before my passion is creation. While I often design interfaces, I also delve into 3D character and asset design."
             },
             {
                 "id": 3,
-                "logo": "img-skills/inspire-skill.svg",
+                "logo": "https://prod.spline.design/cgheYS1jsLzZDLSs/scene.splinecode",
                 "title": "Software Dev Teacher",
                 "content": "Experienced software development teacher specializing in 3D design and programming. Guiding, mentoring and imparting skills in both 3D modeling and programming."
             }
@@ -56,19 +56,19 @@
         "skills": [
             {
                 "id": 1,
-                "logo": "img-skills/build-skill.svg",
+                "logo": "https://prod.spline.design/vKlhNQ-AphcP6Axa/scene.splinecode",
                 "title": "Desarrollador Frontend",
-                "content": "Actualmente estoy enfocado programando directamente en Vanilla JS o usando React como framework. Combinandolos con SASS, siempre intento prestar mucha atencion a la creacion de web \"amigables\" y atractivas para el usuario."
+                "content": "Actualmente enfocado programando con React. Combinandolo con SASS, siempre intento prestar mucha atencion a la creacion de web \"amigables\" y atractivas para el usuario."
             },
             {
                 "id": 2,
-                "logo": "img-skills/design-skill.svg",
+                "logo": "https://prod.spline.design/uu7F3ZhDtYtb5iAw/scene.splinecode",
                 "title": "Modelador y Diseñador 3D",
                 "content": "Como he mencionado, mi pasión es crear. También me encanta diseñar elementos o incluso personajes en 3D. ¡Echa un vistazo a mi portafolio para explorar mis creaciones!"
             },
             {
                 "id": 3,
-                "logo": "img-skills/inspire-skill.svg",
+                "logo": "https://prod.spline.design/cgheYS1jsLzZDLSs/scene.splinecode",
                 "title": "Profesor de Desarrollo de Software",
                 "content": "Tengo varios años de experiencia como profesor de desarrollo de software. Guiando tanto a jovenes como a adultos en su camino del aprendizaje en el mundo de las tecnologias."
             }

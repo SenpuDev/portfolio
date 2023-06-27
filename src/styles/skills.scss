@@ -5,6 +5,7 @@
     overflow: hidden;
     justify-content: center;
     padding-top: 10vh;
+
     @media (min-width: 998px) {
         justify-content: unset;
         padding-top: 15vh;
@@ -20,7 +21,12 @@
     gap: 4rem;
 
 
+    @media (min-width: 556px) {
+        width: 60%;
+    }
+
     @media (min-width: 998px) {
+        width: 80%;
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -55,29 +61,42 @@
         justify-content: space-between;
         padding: 2rem;
         position: relative;
-        border: 4px solid var(--gray);
         border-radius: 1rem;
         opacity: 0;
+        background-color: var(--background-secondary);
 
-        h2 {
-            text-align: right;
-            margin-left: auto;
-            margin-right: 0;
-            font-size: 2.4rem;
-            width: 85%;
+
+        .skill-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            h2 {
+                font-size: 2rem;
+                text-align: right;
+                white-space: nowrap;
+                padding: 2rem 0 2rem 0;
+            }
+
+            .image-skill {
+                width: 9rem;
+                height: 5rem;
+                @media (min-width: 998px) {
+                    width: 7rem;
+                    height: 3rem;
+                }
+                @media (min-width: 1280px) {
+                    width: 9rem;
+                    height: 5rem;
+                }
+   
+            }
         }
 
-        .image-skill {
-            width: 70px;
-            height: 70px;
-            left: -2rem;
-            top: -2rem;
-            position: absolute;
-        }
+
 
         p {
             margin-top: 2rem;
-            text-align: justify;
         }
 
     }

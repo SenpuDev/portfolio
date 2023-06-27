@@ -2,8 +2,9 @@ import { scrollToSection } from '../helpers/scrollToSection'
 import useFilters from '../hooks/useContext/useFilters'
 import useScrollRefs from '../hooks/useContext/useScrollRefs'
 import useLanguage from '../hooks/useContext/useLanguage'
+import { Suspense, lazy } from 'react'
 
-const Skill = ({ skill }) => {
+const Skill = ({ skill, isInView }) => {
   const { title, content, logo, id } = skill
   const { filters, setFilters } = useFilters()
   const { projects } = useScrollRefs()
@@ -16,10 +17,23 @@ const Skill = ({ skill }) => {
     scrollToSection(projects)
   }
 
+  const Spline = lazy(() => import('@splinetool/react-spline'))
+
   return (
     <div className='skill'>
-      <img className='image-skill' src={logo} alt='Skill icon' />
-      <h2>{title}</h2>
+      <div className='skill-header'>
+
+        <div className='image-skill'>
+          {isInView && (
+            <Suspense fallback={<div className='lds-dual-ring' />}>
+              <Spline scene={logo} />
+            </Suspense>
+          )}
+        </div>
+        <h2>{title}</h2>
+
+      </div>
+
       <div>
         <p>{content}</p>
       </div>
