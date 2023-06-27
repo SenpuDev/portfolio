@@ -70,26 +70,15 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            gap: 1rem;
             h2 {
-                font-size: 2rem;
+                font-size: 2.2rem;
                 text-align: right;
-                white-space: nowrap;
                 padding: 2rem 0 2rem 0;
             }
 
             .image-skill {
-                width: 9rem;
-                height: 5rem;
-                @media (min-width: 998px) {
-                    width: 7rem;
-                    height: 3rem;
-                }
-                @media (min-width: 1280px) {
-                    width: 9rem;
-                    height: 5rem;
-                }
-   
+                width: 10rem;
+                height: 7rem;
             }
         }
 

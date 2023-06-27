@@ -18,17 +18,14 @@ const Skill = ({ skill, isInView }) => {
   }
 
   const Spline = lazy(() => import('@splinetool/react-spline'))
-
   return (
     <div className='skill'>
       <div className='skill-header'>
 
         <div className='image-skill'>
-          {isInView && (
-            <Suspense fallback={<div className='lds-dual-ring' />}>
-              <Spline scene={logo} />
-            </Suspense>
-          )}
+          <Suspense fallback={<div className='lds-dual-ring' />}>
+            <Spline scene={logo} />
+          </Suspense>
         </div>
         <h2>{title}</h2>
 
