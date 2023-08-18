@@ -4,15 +4,18 @@ import './styles/styles.scss'
 import Header from './components/header'
 import Wellcome from './components/sections/wellcome'
 import Projects from './components/sections/projects'
-import Contact from './components/sections/contact'
 import Skills from './components/sections/skills'
 import Footer from './components/footer'
-import ParticlesBG from './components/particles-bg.jsx'
 import useScrollRefs from './hooks/useContext/useScrollRefs'
+import { Suspense, lazy } from 'react'
 
 function App () {
-  const { skills, projects, contact } = useScrollRefs()
+  const { skills, projects } = useScrollRefs()
+  // Big libraries
+  const ParticlesBG = lazy(() => import('./components/particles-bg.jsx'))
+
   return (
+
     <>
       <Header />
 
@@ -28,14 +31,14 @@ function App () {
         <section className='projects' ref={projects}>
           <Projects />
         </section>
-
-        <section className='contact' ref={contact}>
-          <Contact />
-        </section>
       </main>
 
       <Footer />
-      <ParticlesBG />
+
+      <Suspense>
+        <ParticlesBG />
+      </Suspense>
+
     </>
   )
 }

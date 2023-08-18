@@ -4,12 +4,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     @media (min-width: 768px) {
         height: 10vh;
     }
+
     img {
         display: none;
-        
+
         @media (min-width: 1280px) {
             display: flex;
             justify-content: center;
@@ -18,11 +20,11 @@
             min-width: 120px;
             max-width: 180px;
         }
-    
+
     }
 }
 
-.show-burger-menu + .switch-button{
+.show-burger-menu+.switch-button {
     display: block;
     position: fixed;
     top: 0;
@@ -40,16 +42,31 @@
     color: gray;
     position: relative;
     display: none;
+
     @media (min-width: 768px) {
         display: block;
         max-width: 10vw;
         font-size: var(--m);
     }
-    
+
     @media (min-width: 1280px) {
         font-size: var(--l2);
     }
-    
+
+    &.floating {
+        
+        @media (min-width: 768px) {
+            position: fixed;
+            top: 0;
+            right: 0;
+            animation-name: fade-in;
+            animation-duration: 4s;
+            -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+            padding: 2rem 2rem 2rem;
+        }
+    }
+
     &__checkbox {
         cursor: pointer;
         position: absolute;
@@ -57,13 +74,13 @@
         height: 100%;
         opacity: 0;
     }
-    
+
     span {
-        
+
         font-size: var(--m);
         color: gray;
     }
-    
+
     &__label {
         transition: all .5s;
         cursor: pointer;

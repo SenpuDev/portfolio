@@ -11,9 +11,8 @@ const Skills = () => {
     <>
       <h2 className='title'>{skillsTitle}</h2>
       <div className={'skill-list ' + (isInView ? 'show' : '')} ref={elementToObserve}>
-
         {skills.map(skill =>
-          <Skill skill={skill} key={skill.id} isInView={isInView} />
+          <Skill skill={skill} key={skill.id} />
         )}
       </div>
     </>

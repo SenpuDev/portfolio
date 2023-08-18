@@ -4,13 +4,6 @@
     align-items: center;
     overflow: hidden;
     justify-content: center;
-    padding-top: 10vh;
-
-    @media (min-width: 998px) {
-        justify-content: unset;
-        padding-top: 15vh;
-        height: 100vh;
-    }
 }
 
 .skill-list {
@@ -70,19 +63,23 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+
             h2 {
                 font-size: 2.2rem;
                 text-align: right;
-                padding: 2rem 0 2rem 0;
-            }
 
+            }
+            
             .image-skill {
+                min-width: 10rem;
                 width: 10rem;
-                height: 7rem;
+                height: 10rem;
             }
         }
 
-
+        .button-wrap{
+            margin-top: 2rem;
+        }
 
         p {
             margin-top: 2rem;

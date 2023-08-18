@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <a
-        href='https://github.com/SenpuDev/hello'
+        href='https://github.com/SenpuDev/portfolio'
         target='_blank'
         rel='noreferrer'
         aria-label='Visit this project source code'

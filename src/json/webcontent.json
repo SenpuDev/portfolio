@@ -11,32 +11,27 @@
         "skillFilterWeb": "Web Develop",
         "skillFilterDesign": "3D & Design",
         "skillFilterInspire": "Teaching Achievements",
-        "showingProjects": "Showing...",
-        "showMeProjects": "Show me Projects",
+        "showMeProjects": "Show more",
         "skills": [
             {
                 "id": 1,
-                "logo": "https://prod.spline.design/vKlhNQ-AphcP6Axa/scene.splinecode",
+                "logo": "build",
                 "title": "Frontend Developer",
-                "content": "Developing focused on Vanilla JS, React and styling with CSS & SASS. Creating user-friendly web applications with attention to detail and clean code."
+                "content": "During my year of experience as a frontend developer, I've consistently strived to focus on the minutest details, aiming to enhance the user experience to the fullest extent."
             },
             {
                 "id": 2,
-                "logo": "https://prod.spline.design/uu7F3ZhDtYtb5iAw/scene.splinecode",
+                "logo": "design",
                 "title": "3D Modelling & Design",
-                "content": "As I have mentioned before my passion is creation. While I often design interfaces, I also delve into 3D character and asset design."
+                "content": "As I've mentioned, my passion is creating. I also enjoy designing in both 2D and 3D. Take a look at my portfolio to explore my creations!"
             },
             {
                 "id": 3,
-                "logo": "https://prod.spline.design/cgheYS1jsLzZDLSs/scene.splinecode",
+                "logo": "teach",
                 "title": "Software Dev Teacher",
-                "content": "Experienced software development teacher. Guiding, mentoring and imparting skills in both 3D modeling and programming."
+                "content": "Over 5 years of experience as a software development teacher. I've also been a mentor in various national and international competitions and challenges."
             }
         ],
-        "contactTitle": "Get in touch",
-        "contactContent": "Feel free to reach out by sending me an email or saying hello on my social networks. Let's discuss your project and bring your vision to life together.",
-        "contactColaborate": "I look forward to connecting with you and exploring how we can collaborate!🙂",
-        "contactOr": "or",
         "contactSendEmail": "Send me an email!"
     },
     "es": {
@@ -46,37 +41,32 @@
         "navContact": "Contacto",
         "wellHi": "¡Hola! Al habla",
         "wellShortDescription": "Desarrollador de Frontend y Diseñador 3D",
-        "wellLongDescription": "Desde siempre he disfrutado crear y ello me ha llevado a dedicarme a lo que me apasiona. Actualmente comparto mis conocimientos a los más jóvenes para que ellos tambien aprendan lo apasionante del mundo del desarrollo.",
+        "wellLongDescription": "Siempre he disfrutado crear, por eso me dedico al mundo del desarrollo. Actualmente, comparto mis conocimientos con más personas para transmitir lo apasionante de esta área.",
         "wellLetsColaborate": "¡Colaboremos para dar vida a tus proyectos! 😄",
         "skillFilterWeb": "Desarrollo Web",
         "skillFilterDesign": "3D & Diseño",
         "skillFilterInspire": "Experiencia docente",
-        "showingProjects": "Mostrando...",
-        "showMeProjects": "Ver proyectos",
+        "showMeProjects": "Muéstrame más",
         "skills": [
             {
                 "id": 1,
-                "logo": "https://prod.spline.design/vKlhNQ-AphcP6Axa/scene.splinecode",
+                "logo": "build",
                 "title": "Desarrollador Frontend",
-                "content": "Actualmente enfocado programando con React. Combinandolo con SASS, siempre intento prestar mucha atencion a la creacion de web \"amigables\" y atractivas para el usuario."
+                "content": "Con un año de experiencia como desarrollador frontend siempre intento prestar la máxima atención al detalle para aportar la mejor experiencia al usuario."
             },
             {
                 "id": 2,
-                "logo": "https://prod.spline.design/uu7F3ZhDtYtb5iAw/scene.splinecode",
+                "logo": "design",
                 "title": "Modelador y Diseñador 3D",
-                "content": "Como he mencionado, mi pasión es crear. También me encanta diseñar elementos o incluso personajes en 3D. ¡Echa un vistazo a mi portafolio para explorar mis creaciones!"
+                "content": "Como he mencionado, mi pasión es crear. También disfruto diseñando tanto en 2D como en 3D. ¡Echa un vistazo a mi portafolio para explorar mis creaciones!"
             },
             {
                 "id": 3,
-                "logo": "https://prod.spline.design/cgheYS1jsLzZDLSs/scene.splinecode",
+                "logo": "teach",
                 "title": "Profesor de Desarrollo",
-                "content": "Tengo varios años de experiencia como profesor de desarrollo de software. Guiando tanto a jovenes como a adultos en su camino del aprendizaje."
+                "content": "Cuento con más de 5 años de experiencia como profesor de desarrollo de software. Mentor en varias competiciones y desafios nacionales e internacionales."
             }
         ],
-        "contactTitle": "Ponte en contacto",
-        "contactContent": "Comentame tu proyecto y hagamoslo realidad. No dudes contactarme mediante alguno de los siguientes enlaces.",
-        "contactColaborate": "¡Espero con interés conocerte y explorar cómo podemos colaborar!🙂",
-        "contactOr": "o",
         "contactSendEmail": "¡Envíame un correo!"
     }
 }

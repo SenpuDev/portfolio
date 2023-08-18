@@ -2,11 +2,10 @@
 
 // Wrap for buttons
 .button-wrap {
-    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    text-decoration: none;
     a {
         all: unset;
     }
@@ -29,7 +28,7 @@
     color: var(--white);
     background: transparent;
     transition: all .5s;
-    
+
     &:hover,
     &.active {
         border: .3rem solid var(--particles-primary);
@@ -64,7 +63,8 @@
     transition: width .5s ease;
     position: relative;
 
-    .lord-icon-email {
+    .icon-email {
+        width: 5rem;
         position: absolute;
         top: -10%;
         right: 3%;
@@ -73,18 +73,23 @@
 
     &:hover,
     .active {
-        width: 100%;
         border: .3rem solid var(--particles-primary);
-
-        .lord-icon-email {
-            display: inline;
-            animation: fade-in-right-light .5s;
+        
+        @media (min-width: 556px) {
+            width: 100%;
+            .icon-email {
+                display: inline;
+                animation: fade-in-right-light .5s;
+            }
         }
+        
     }
 
     p {
         white-space: nowrap;
-        font-size: 1.6rem;
         text-transform: uppercase;
+        @media (min-width: 998px) {
+            font-size: 1.6rem;
+        }
     }
 }
