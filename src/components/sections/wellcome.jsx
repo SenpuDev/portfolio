@@ -26,7 +26,7 @@ const Wellcome = () => {
 
         <div className={'presentation ' + (isInView ? 'show' : '')}>
           <p className='hello'>{wellHi}</p>
-          <h1>Senpuu DEV</h1>
+          <h1>Senpu DEV</h1>
           <h2>{wellShortDescription}</h2>
           <p>{wellLongDescription}</p>
           <p className='break'>{wellLetsColaborate}</p>
