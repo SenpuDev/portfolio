@@ -34,6 +34,16 @@
             @media (min-width: 998px) {
                 height: 60%;
             }
+
+            .spline-overlay {
+                position: absolute;
+                right: 0; // ajusta según la posición del watermark
+                bottom: 0;
+                width: 160px; // ajusta al tamaño del sello
+                height: 70px;
+                background-color: var(--background-primary); // usa la variable de fondo global
+                pointer-events: none; // no bloquea interacciones con el canvas
+            }
         }
 
         .presentation {

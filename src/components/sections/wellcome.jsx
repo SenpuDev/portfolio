@@ -6,20 +6,26 @@ import ScrollLottie from './../../img/lotties/scroll.json'
 import MailLottie from './../../img/lotties/mail.json'
 import GitHubIcon from './../../img/icons/github.svg'
 import LinkedInIcon from './../../img/icons/linkedin.svg'
+import Spline from '@splinetool/react-spline';
 
 const Wellcome = () => {
   const { elementToObserve, isInView } = useInViewShow()
   const { language, webContent } = useLanguage()
 
   const { wellHi, wellShortDescription, wellLongDescription, wellLetsColaborate, contactSendEmail } = webContent[language]
-  const Spline = lazy(() => import('@splinetool/react-spline'))
+  
+  const LazySpline = lazy(() => import('@splinetool/react-spline'))
+
   return (
     <>
       <div className='content container' ref={elementToObserve}>
         <div className='portrait'>
           {isInView && (
             <Suspense fallback={<div className='lds-dual-ring' />}>
-              <Spline scene='https://prod.spline.design/PjCKAcWVerz6O85s/scene.splinecode' />
+              <LazySpline
+                scene='https://prod.spline.design/PjCKAcWVerz6O85s/scene.splinecode'
+              />
+              <div className='spline-overlay' />
             </Suspense>
           )}
         </div>
