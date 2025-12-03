@@ -44,7 +44,7 @@ const Welcome = () => {
               <img src={GitHubIcon} alt='' />
             </a>
             <div className='button-wrap'>
-              <a href='mailto:contact@senpudev.com'>
+              <a href='mailto:senpudev@gmail.com'>
                 <button className='button-contact'>
                   <p>{contactSendEmail}</p>
                   <div className='icon-email'>
