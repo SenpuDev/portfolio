@@ -1,18 +1,18 @@
 import './styles/styles.scss'
 
 // Sections - Components
-import Header from './components/header'
-import Welcome from './components/sections/welcome'
-import Projects from './components/sections/projects'
-import Skills from './components/sections/skills'
-import Footer from './components/footer'
+import Header from './components/Header'
+import Welcome from './components/sections/Welcome'
+import Projects from './components/sections/Projects'
+import Skills from './components/sections/Skills'
+import Footer from './components/Footer'
 import useScrollRefs from './hooks/useContext/useScrollRefs'
 import { Suspense, lazy } from 'react'
 
 function App () {
   const { skills, projects } = useScrollRefs()
   // Big libraries
-  const ParticlesBG = lazy(() => import('./components/particles-bg.jsx'))
+  const ParticlesBG = lazy(() => import('./components/ParticlesBg.jsx'))
 
   return (
 
