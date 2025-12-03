@@ -1,6 +1,6 @@
 {
     "en": {
-        "navWellcome": "Welcome",
+        "navWelcome": "Welcome",
         "navSkills": "Skills",
         "navProjects": "Projects",
         "navContact": "Contact",
@@ -35,7 +35,7 @@
         "contactSendEmail": "Send me an email!"
     },
     "es": {
-        "navWellcome": "Bienvenido",
+        "navWelcome": "Bienvenido",
         "navSkills": "Habilidades",
         "navProjects": "Proyectos",
         "navContact": "Contacto",

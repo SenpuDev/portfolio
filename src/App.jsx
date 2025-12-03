@@ -2,7 +2,7 @@ import './styles/styles.scss'
 
 // Sections - Components
 import Header from './components/header'
-import Wellcome from './components/sections/wellcome'
+import Welcome from './components/sections/welcome'
 import Projects from './components/sections/projects'
 import Skills from './components/sections/skills'
 import Footer from './components/footer'
@@ -20,8 +20,8 @@ function App () {
       <Header />
 
       <main>
-        <section className='wellcome'>
-          <Wellcome />
+        <section className='welcome'>
+          <Welcome />
         </section>
 
         <section className='skills' ref={skills}>

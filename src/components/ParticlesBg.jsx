@@ -1,7 +1,7 @@
 import Particles from 'react-tsparticles'
 import { loadFull } from 'tsparticles'
 
-import particlesOptions from './config/particle-container-options'
+import particlesOptions from './config/ParticleContainerOptions'
 
 const ParticlesBG = () => {
   const particlesInit = async engine => {

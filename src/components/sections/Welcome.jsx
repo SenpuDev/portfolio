@@ -2,13 +2,13 @@ import useInViewShow from '../../hooks/useInViewShow'
 import { Suspense, lazy } from 'react'
 import useLanguage from '../../hooks/useContext/useLanguage'
 import Lottie from 'lottie-react'
-import ScrollLottie from './../../img/lotties/scroll.json'
-import MailLottie from './../../img/lotties/mail.json'
+import ScrollLottie from '../../img/lotties/scroll.json'
+import MailLottie from '../../img/lotties/mail.json'
 import GitHubIcon from './../../img/icons/github.svg'
 import LinkedInIcon from './../../img/icons/linkedin.svg'
 import Spline from '@splinetool/react-spline';
 
-const Wellcome = () => {
+const Welcome = () => {
   const { elementToObserve, isInView } = useInViewShow()
   const { language, webContent } = useLanguage()
 
@@ -65,4 +65,4 @@ const Wellcome = () => {
   )
 }
 
-export default Wellcome
+export default Welcome

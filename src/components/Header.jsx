@@ -1,19 +1,19 @@
 import Logo from './../img/senpuLogo.webp'
-import Navigation from './navigation'
+import Navigation from './Navigation'
 import useLanguage from '../hooks/useContext/useLanguage'
 import useScrollRefs from '../hooks/useContext/useScrollRefs'
 import { useNavBar } from '../hooks/useNavBar'
 
 const Header = () => {
   const { language, toggleLanguage } = useLanguage()
-  const { wellcome } = useScrollRefs()
+  const { welcome } = useScrollRefs()
   const { navBarShow } = useNavBar()
   const handleChange = () => {
     toggleLanguage()
   }
 
   return (
-    <header className='header' ref={wellcome}>
+    <header className='header' ref={welcome}>
       <img src={Logo} alt='Senpudev logo' />
       <Navigation navBarShow={navBarShow} />
       <div className={'switch-button ' + (navBarShow ? 'floating ' : '')}>

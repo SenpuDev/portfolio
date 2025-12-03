@@ -6,10 +6,10 @@ import useScrollRefs from '../hooks/useContext/useScrollRefs'
 const Navigation = ({ navBarShow }) => {
   // Custom Hook - NavBarLogic
   const [burguerMenu, toggle] = useToggleMenu(false)
-  const { wellcome, skills, projects } = useScrollRefs()
+  const { welcome, skills, projects } = useScrollRefs()
 
   const { language, webContent } = useLanguage()
-  const { navWellcome, navSkills, navProjects } = webContent[language]
+  const { navWelcome, navSkills, navProjects } = webContent[language]
   return (
     <>
       <ul className={'navigation ' + (navBarShow ? 'floating ' : '') + (burguerMenu ? 'show-burger-menu' : '')}>
@@ -21,9 +21,9 @@ const Navigation = ({ navBarShow }) => {
           </div>
         </li>
 
-        <li className='nav-item' onClick={() => [scrollToSection(wellcome), burguerMenu && toggle()]}>
+        <li className='nav-item' onClick={() => [scrollToSection(welcome), burguerMenu && toggle()]}>
           <span />
-          {navWellcome}
+          {navWelcome}
         </li>
         <li className='nav-item' onClick={() => [scrollToSection(skills), burguerMenu && toggle()]}>
           <span />

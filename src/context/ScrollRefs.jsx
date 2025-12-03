@@ -5,11 +5,11 @@ export const ScrollRefsContext = createContext()
 
 // Provide App the context
 export function ScrollRefsProvider ({ children }) {
-  const wellcome = useRef(null)
+  const welcome = useRef(null)
   const projects = useRef(null)
   const skills = useRef(null)
 
   return (
-    <ScrollRefsContext.Provider value={{ wellcome, projects, skills }}>{children}</ScrollRefsContext.Provider>
+    <ScrollRefsContext.Provider value={{ welcome, projects, skills }}>{children}</ScrollRefsContext.Provider>
   )
 }
