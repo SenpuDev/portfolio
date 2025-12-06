@@ -61,6 +61,13 @@
       animation-duration: .2s;
     }
 
+    // Keep the duration inside the title without blue glow
+    .project__title h3 span {
+      color: var(--gray-smooth);
+      text-shadow: none;
+      animation: none;
+    }
+
     .card-background {
       box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
     }
@@ -107,7 +114,7 @@
       padding: 0;
       white-space: nowrap;
       position: relative;
-      font-size: var(--fs-xl);
+      font-size: var(--xl);
 
       &::after {
         content: '';
@@ -119,6 +126,19 @@
         width: 100%;
         height: 15%;
         background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(0, 122, 255, 1));
+      }
+    }
+
+    h3 {
+      display: flex;
+      align-items: baseline;
+      gap: 1rem;
+
+      span {
+        color: var(--gray-smooth);
+        text-shadow: none;
+        animation: none;
+        font-size: var(--s);
       }
     }
 
@@ -155,7 +175,7 @@
         pointer-events: auto;
       }
     }
-    
+
     .card-inside {
       pointer-events: none;
       display: flex;
@@ -169,23 +189,29 @@
       transform: translateY(25%);
       transition: .3s ease;
       opacity: 0;
+
       .button-wrap {
         padding: 0rem 1rem;
+
         .button-shine {
           font-size: 1.2rem;
           padding: 1rem;
+
           @media (min-width:448px) {
             padding: 1rem 1rem;
-            font-size: 1.4rem; 
+            font-size: 1.4rem;
           }
+
           @media (min-width:768px) {
             font-size: 1.2rem;
             padding: 1rem;
           }
+
           @media (min-width:998px) {
             padding: 1rem 1rem;
-            font-size: 1.4rem; 
+            font-size: 1.4rem;
           }
+
           :hover {
             border: .3rem solid var(--particles-primary);
           }

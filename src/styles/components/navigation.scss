@@ -1,4 +1,5 @@
 @import './../variables.scss';
+
 .navigation {
     height: 10%;
     position: absolute;
@@ -59,10 +60,10 @@
         transition-duration: 300ms;
         font-size: var(--l2);
 
-        span{
+        span {
             font-size: var(--m);
         }
-        
+
         @media (min-width: 768px) {
             font-size: var(--m);
             display: block;

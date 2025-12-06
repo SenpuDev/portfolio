@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+
     a {
         all: unset;
     }
@@ -33,7 +34,7 @@
     &.active {
         border: .3rem solid var(--particles-primary);
     }
-    
+
     &::before {
         content: "";
         position: absolute;
@@ -74,20 +75,22 @@
     &:hover,
     .active {
         border: .3rem solid var(--particles-primary);
-        
+
         @media (min-width: 556px) {
             width: 100%;
+
             .icon-email {
                 display: inline;
                 animation: fade-in-right-light .5s;
             }
         }
-        
+
     }
 
     p {
         white-space: nowrap;
         text-transform: uppercase;
+
         @media (min-width: 998px) {
             font-size: 1.6rem;
         }

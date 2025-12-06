@@ -30,6 +30,7 @@
         opacity: 0;
         transform: translateY(-300px);
     }
+
     to {
         opacity: 1;
     }
@@ -40,6 +41,7 @@
         opacity: 0;
         transform: translateY(300px);
     }
+
     to {
         opacity: 1;
     }
@@ -51,6 +53,7 @@
         opacity: 0;
         transform: translateX(300px);
     }
+
     to {
         opacity: 1;
     }
@@ -61,13 +64,21 @@
         opacity: 0;
         transform: translateX(-300px);
     }
-    to {opacity: 1;}
+
+    to {
+        opacity: 1;
+    }
 }
 
 
 @keyframes fade-in {
-    from {opacity: 0;}
-    to {opacity: 1;}
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fade-in-right-light {
@@ -75,25 +86,48 @@
         opacity: 0;
         transform: translateX(-50px);
     }
-    to {opacity: 1;}
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fade-out {
-    from {opacity: 1;}
-    to {opacity: 0;}
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
 }
 
 @keyframes fade-in-bottom-opacity {
-    from {transform: translateY(300px)}
-    to {transform: translateY(0px)}
+    from {
+        transform: translateY(300px)
+    }
+
+    to {
+        transform: translateY(0px)
+    }
 }
 
 @keyframes fade-in-left-opacity {
-    from {transform: translateX(300px)}
-    to {transform: translateX(0px)}
+    from {
+        transform: translateX(300px)
+    }
+
+    to {
+        transform: translateX(0px)
+    }
 }
 
 @keyframes fade-in-right-opacity {
-    from {transform: translateX(-300px)}
-    to {transform: translateX(0px)}
+    from {
+        transform: translateX(-300px)
+    }
+
+    to {
+        transform: translateX(0px)
+    }
 }

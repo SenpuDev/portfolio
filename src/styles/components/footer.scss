@@ -6,9 +6,11 @@
     a {
         all: unset;
         font-size: var(--s);
+
         @media (min-width: 768px) {
             font-size: var(--m);
         }
+
         display: flex;
         justify-content: center;
         align-items: center;
