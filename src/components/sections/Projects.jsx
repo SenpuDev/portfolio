@@ -1,10 +1,10 @@
-import Project from '../project'
+import Project from '../Project'
 import useLanguage from '../../hooks/useContext/useLanguage'
 import useFilters from '../../hooks/useContext/useFilters'
 import { FILTER_OPTIONS } from '../../context/Filters'
 import useInViewShow from '../../hooks/useInViewShow'
 import useModal from '../../hooks/useContext/useModal'
-import Modal from '../modal'
+import Modal from '../Modal'
 
 const Projects = () => {
   const { filters, setFilters } = useFilters()

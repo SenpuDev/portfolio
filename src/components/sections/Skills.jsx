@@ -1,4 +1,4 @@
-import Skill from '../skill'
+import Skill from '../Skill'
 import useInViewShow from '../../hooks/useInViewShow'
 import useLanguage from '../../hooks/useContext/useLanguage'
 
