@@ -15,7 +15,7 @@
             "github": "https://github.com/SenpuDev/trackwave",
             "deploy": "https://senpudev.github.io/trackwave/",
             "demovideo": "https://www.youtube.com/embed/5RVYzr1GLD8",
-            "category": 1
+            "category": "workExperience"
         },
         {
             "title": "GuitarJam",
@@ -32,7 +32,7 @@
             "github": "https://github.com/SenpuDev/GuitarJAM",
             "deploy": "https://guitar-jam.vercel.app/",
             "demovideo": "https://www.youtube.com/embed/DXchI7sWKz4",
-            "category": 1
+            "category": "workExperience"
         },
         {
             "title": "Strapi for GuitarJam",
@@ -47,7 +47,7 @@
             "github": "https://github.com/SenpuDev/guitarjam-strapi",
             "deploy": "https://guitarjam-strapi.onrender.com/",
             "demovideo": "https://www.youtube.com/embed/DXchI7sWKz4",
-            "category": 1
+            "category": "workExperience"
         },
         {
             "title": "Coin Checkr",
@@ -61,7 +61,7 @@
             ],
             "github": "https://github.com/SenpuDev/coin-checkr",
             "deploy": "https://senpudev.github.io/coin-checkr/",
-            "category": 1
+            "category": "workExperience"
         },
         {
             "title": "Druid Elf Design & Sculpt",
@@ -74,7 +74,7 @@
             ],
             "deploy": "https://www.artstation.com/artwork/erD8w",
             "demovideo": "https://player.vimeo.com/video/220383916?h=ea0b693ddc",
-            "category": 2
+            "category": "sideProjects"
         },
         {
             "title": "SKOMIA Videogame development",
@@ -88,7 +88,7 @@
             ],
             "deploy": "https://www.artstation.com/artwork/v55d6",
             "demovideo": "https://sketchfab.com/models/8756a8000e884170988620c3b4270392/embed",
-            "category": 2
+            "category": "sideProjects"
         },
         {
             "title": "Plasma Rifle Modelling",
@@ -101,7 +101,7 @@
             ],
             "deploy": "https://www.artstation.com/artwork/xLQxO",
             "demovideo": "https://player.vimeo.com/video/217743537?h=a529570469",
-            "category": 2
+            "category": "sideProjects"
         },
         {
             "title": "Empowering Youth in Programming & Design",
@@ -112,7 +112,7 @@
             "cardtext": "Company website",
             "techicons": [],
             "deploy": "https://mmmacademy.es",
-            "category": 3
+            "category": "achievements"
         },
         {
             "title": "Technovation Challenge Mentor",
@@ -123,7 +123,7 @@
             "extracomment": "https://technovationchallenge.org/",
             "techicons": [],
             "deploy": "https://www.murcia.com/noticias/2019/05/19-una-aplicacion-creada-por-estudiantes-para-la-mejora-de-la-calidad-del-aire-consigue-el-i-premio-ciudad-de-murcia.asp",
-            "category": 3
+            "category": "achievements"
         },
         {
             "title": "Hackaton 2020 Cori Mentoring",
@@ -134,15 +134,59 @@
             "extracomment": "https://cori.institute/",
             "techicons": [],
             "deploy": "https://mmmacademy.es/cori-2020/",
-            "category": 3
+            "category": "achievements"
         }
     ],
     "es": [
         {
+            "title": "Macrovesta",
+            "type": "Lead Frontend & Full Stack Developer",
+            "description": "Plataforma financiera diseñada para procesar y visualizar millones de puntos de datos del mercado. Lideré la arquitectura frontend, la integración con APIs REST y la creación de dashboards interactivos para traders y analistas. Trabajé junto a un equipo internacional distribuido entre Reino Unido, España e Italia, coordinando revisiones de código, entregas semanales y la elaboración de especificaciones técnicas.",
+            "cardimage": "img-projects/macrovesta.png",
+            "cardtext": "Ver Plataforma",
+            "duration": "2022 to Present",
+            "techicons": [
+                "nextjs",
+                "typescript",
+                "docker",
+                "python",
+                "aws"
+            ],
+            "github": "",
+            "deploy": "https://macrovesta.ai",
+            "demovideo": "",
+            "category": "workExperience"
+        },
+        {
+            "title": "Open Source Contributor",
+            "type": "Freelance",
+            "duration": "2021 to 2022",
+            "description": "Colaboré con mantenedores de Microsoft para resolver y mejorar funcionalidades del portal de Azure API Management.",
+            "cardimage": "img-projects/open-source.png",
+            "extracomment": "https://github.com/Azure/api-management-developer-portal/pull/2276",
+            "cardtext": "View Merged Contribution",
+            "techicons": [],
+            "deploy": "https://github.com/Azure/api-management-developer-portal/pull/2276",
+            "category": "workExperience"
+        },
+        {
+            "title": "Formador en Programación y Diseño",
+            "type": "Experiencia",
+            "duration": "2017 to 2021",
+            "description": "Más de 4 años de experiencia formando a jovenes y adultos en los ámbitos de la programación y el diseño, fomentando su pasión y preparandolos en el campo digital.",
+            "cardimage": "img-projects/teaching-years.webp",
+            "extracomment": "https://mmmacademy.es/",
+            "cardtext": "Web de empresa",
+            "techicons": [],
+            "deploy": "https://mmmacademy.es",
+            "category": "workExperience"
+        },
+        {
             "title": "TrackWave",
             "type": "Proyecto FullStack",
-            "description": "Construido con MERN Stack. Aplicación que permite administrar proyectos y tareas de forma colaborativa en tiempo real con otros usuarios. Incluye autentificación de usuarios y envio de correos electronicos.",
+            "description": "Construido con MERN Stack. Aplicación que permite administrar proyectos y tareas de forma colaborativa en tiempo real con otros usuarios. Incluye autentificación de usuarios, envio de correos electronicos y uso de websockets para actualizaciones en tiempo real.",
             "cardimage": "img-projects/trackwave.webp",
+            "duration": "2022",
             "cardtext": "Visitar Proyecto",
             "techicons": [
                 "react",
@@ -153,13 +197,14 @@
             "github": "https://github.com/SenpuDev/trackwave",
             "deploy": "https://senpudev.github.io/trackwave/",
             "demovideo": "https://www.youtube.com/embed/5RVYzr1GLD8",
-            "category": 1
+            "category": "sideProjects"
         },
         {
             "title": "GuitarJam",
             "type": "Proyecto FullStack",
-            "description": "Construido con React - Remix Run (SSR). Simulación de una tienda de guitarras con contenido dinámico obtenido de Strapi. El administrador puede insertar, eliminar o actualizar cualquier producto fácilmente desde el panel de Strapi. Contenido disponible en inglés y español.",
+            "description": "Aplicación Full Stack construida con Remix Run (SSR) y Strapi como CMS headless. Incluye una tienda de guitarras con contenido dinámico, gestión completa desde el panel de administración y soporte multilenguaje.",
             "extracomment": "Si la aplicación desplegada tarda un poco en obtener datos, por favor, ten paciencia. Estoy utilizando planes de despliegue gratuitos, por lo que a veces lleva un tiempo.",
+            "duration": "2021",
             "cardimage": "img-projects/guitar-jam.webp",
             "cardtext": "Visitar Proyecto",
             "techicons": [
@@ -170,13 +215,14 @@
             "github": "https://github.com/SenpuDev/GuitarJAM",
             "deploy": "https://guitar-jam.vercel.app/",
             "demovideo": "https://www.youtube.com/embed/DXchI7sWKz4",
-            "category": 1
+            "category": "sideProjects"
         },
         {
             "title": "Strapi para GuitarJam",
             "type": "Proyecto Backend",
-            "description": "API construida con Strapi con una base de datos de PostgreSQL alojada en el servidor. Puede realizar cualquier acción CRUD facilmente con los permisos adecuados.",
+            "description": "API desarrollada con Strapi y PostgreSQL, ofreciendo un sistema completo de gestión de contenido con operaciones CRUD seguras según roles y permisos. Sirve como backend headless para la aplicación GuitarJam.",
             "cardimage": "img-projects/strapi.webp",
+            "duration": "2021",
             "cardtext": "Visitar Proyecto",
             "techicons": [
                 "postgresql",
@@ -185,92 +231,38 @@
             "github": "https://github.com/SenpuDev/guitarjam-strapi",
             "deploy": "https://guitarjam-strapi.onrender.com/",
             "demovideo": "https://www.youtube.com/embed/DXchI7sWKz4",
-            "category": 1
+            "category": "sideProjects"
         },
         {
             "title": "Coin Checkr",
             "type": "Proyecto FrontEnd",
-            "description": "Coin checkr es una aplicación sencilla que consulta el valor de monedas (EUR, USD, GBP...) en el mercado actual de criptomonedas (Bitcoin, Cardano, OKB...). Utiliza la API pública de cryptocompare.",
+            "description": "Aplicación frontend desarrollada con React que consulta precios de criptomonedas en tiempo real mediante la API pública de CryptoCompare. Incluye conversión entre divisas (EUR, USD, GBP) y visualización simplificada de valores de mercado.",
             "cardimage": "img-projects/coin-checkr.webp",
             "cardtext": "Visitar Proyecto",
+            "duration": "2021",
             "techicons": [
                 "react",
                 "styledcomponents"
             ],
             "github": "https://github.com/SenpuDev/coin-checkr",
             "deploy": "https://senpudev.github.io/coin-checkr/",
-            "category": 1
+            "category": "sideProjects"
         },
         {
-            "title": "Escultura druida",
-            "type": "3D Modelling",
-            "description": "Escultura digital creada a partir de un diseño original, representando en detalle a una druida elfa.",
-            "cardimage": "img-projects/sculpt.webp",
-            "cardtext": "Explorar Proyecto",
-            "techicons": [
-                "zbrush"
-            ],
-            "deploy": "https://www.artstation.com/artwork/erD8w",
-            "demovideo": "https://player.vimeo.com/video/220383916?h=ea0b693ddc",
-            "category": 2
-        },
-        {
-            "title": "Desarrollo de videojuego SKOMIA",
+            "title": "SKOMIA",
             "type": "Desarrollo de videojuegos",
-            "description": "Personaje original y desarrollo para el videojuego Skomia. Desde el diseño del personaje hasta la integración en el motor gráfico, incluyendo modelado, texturizado, rigging y animaciones.",
-            "cardimage": "img-projects/skomia.webp",
+            "description": "Desarrollo del videojuego SKOMIA centrado en la creacion e integración de assets y en la implementación de funcionalidades de gameplay dentro de Unreal Engine.",
+            "duration": "2015 to 2017",
+            "cardimage": "img-projects/skomia.png",
             "cardtext": "Explorar Proyecto",
             "techicons": [
                 "autodesk",
-                "unreal"
+                "unreal",
+                "c++"
             ],
             "deploy": "https://www.artstation.com/artwork/v55d6",
-            "category": 2
-        },
-        {
-            "title": "Modelado de Rifle de Plasma",
-            "type": "Modelado 3D",
-            "description": "Rediseño del rifle de plasma multicapa de la serie Fallout. Modelado, texturizado y retopología para su integración en el motor gráfico.",
-            "cardimage": "img-projects/fallout.webp",
-            "cardtext": "Explorar Proyecto",
-            "techicons": [
-                "autodesk"
-            ],
-            "deploy": "https://www.artstation.com/artwork/v55d6",
-            "category": 2
-        },
-        {
-            "title": "Formador en Programación y Diseño",
-            "type": "Experiencia",
-            "description": "Más de 5 años de experiencia formando a jovenes y adultos en los ámbitos de la programación y el diseño, fomentando su pasión y preparandolos en el campo digital.",
-            "cardimage": "img-projects/teaching-years.webp",
-            "extracomment": "https://mmmacademy.es/",
-            "cardtext": "Web de empresa",
-            "techicons": [],
-            "deploy": "https://mmmacademy.es",
-            "category": 3
-        },
-        {
-            "title": "Mentor del Desafío Technovation",
-            "type": "Logro en la Enseñanza",
-            "description": "Mentor durante el Desafío Technovation 2019 con O2Save, guiando a los participantes en el desarrollo de una aplicación móvil dirigida a la protección del medio ambiente. Su aplicación se llevo el Premio a la Mejor Programación en la región de Murcia 🙌",
-            "cardimage": "img-projects/technovation.webp",
-            "cardtext": "Leer Articulo",
-            "extracomment": "https://technovationchallenge.org/",
-            "techicons": [],
-            "deploy": "https://www.murcia.com/noticias/2019/05/19-una-aplicacion-creada-por-estudiantes-para-la-mejora-de-la-calidad-del-aire-consigue-el-i-premio-ciudad-de-murcia.asp",
-            "category": 3
-        },
-        {
-            "title": "Mentor de Cori Hackathon 2020",
-            "type": "Logro en la Enseñanza",
-            "description": "Mentor de los participantes invitados al Hackathon Cori 2020, donde presentaron una aplicación de realidad aumentada para crear consciencia sobre la importancia de los océanos.",
-            "cardimage": "img-projects/cori.webp",
-            "cardtext": "Leer Articulo",
-            "extracomment": "https://cori.institute/",
-            "techicons": [],
-            "deploy": "https://mmmacademy.es/cori-2020/",
-            "category": 3
+            "category": "sideProjects"
         }
+    
     ]
 }

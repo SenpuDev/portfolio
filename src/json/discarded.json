@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Escultura druida",
+    "type": "3D Modelling",
+    "description": "Escultura digital creada a partir de un diseño original, representando en detalle a una druida elfa.",
+    "cardimage": "img-projects/sculpt.webp",
+    "cardtext": "Explorar Proyecto",
+    "techicons": [
+        "zbrush"
+    ],
+    "deploy": "https://www.artstation.com/artwork/erD8w",
+    "demovideo": "https://player.vimeo.com/video/220383916?h=ea0b693ddc",
+    "category": "sideProjects"
+  },
+  {
+    "title": "Modelado de Rifle de Plasma",
+    "type": "Modelado 3D",
+    "description": "Rediseño del rifle de plasma multicapa de la serie Fallout. Modelado, texturizado y retopología para su integración en el motor gráfico.",
+    "cardimage": "img-projects/fallout.webp",
+    "cardtext": "Explorar Proyecto",
+    "techicons": [
+        "autodesk"
+    ],
+    "deploy": "https://www.artstation.com/artwork/v55d6",
+    "category": "sideProjects"
+  },
+  {
+    "title": "Mentor del Desafío Technovation",
+    "type": "Logro en la Enseñanza",
+    "description": "Mentor durante el Desafío Technovation 2019 con O2Save, guiando a los participantes en el desarrollo de una aplicación móvil dirigida a la protección del medio ambiente. Su aplicación se llevo el Premio a la Mejor Programación en la región de Murcia 🙌",
+    "cardimage": "img-projects/technovation.webp",
+    "cardtext": "Leer Articulo",
+    "extracomment": "https://technovationchallenge.org/",
+    "techicons": [],
+    "deploy": "https://www.murcia.com/noticias/2019/05/19-una-aplicacion-creada-por-estudiantes-para-la-mejora-de-la-calidad-del-aire-consigue-el-i-premio-ciudad-de-murcia.asp",
+    "category": "achievements"
+  },
+  {
+      "title": "Mentor de Cori Hackathon 2020",
+      "type": "Logro en la Enseñanza",
+      "description": "Mentor de los participantes invitados al Hackathon Cori 2020, donde presentaron una aplicación de realidad aumentada para crear consciencia sobre la importancia de los océanos.",
+      "cardimage": "img-projects/cori.webp",
+      "cardtext": "Leer Articulo",
+      "extracomment": "https://cori.institute/",
+      "techicons": [],
+      "deploy": "https://mmmacademy.es/cori-2020/",
+      "category": "achievements"
+  }
+]
+

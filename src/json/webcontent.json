@@ -4,29 +4,29 @@
         "navSkills": "Skills",
         "navProjects": "Projects",
         "navContact": "Contact",
-        "wellHi": "Hi! I'm know as",
-        "wellShortDescription": "Front end developer & 3D designer",
-        "wellLongDescription": "Passionate creator who enjoys both web development and 3D modeling. With affinity for design, I pay meticulous attention to detail. Furthermore, I actively share my knowledge by teaching and imparting classes to others.",
-        "wellLetsColaborate": "Let's collaborate to bring your projects to life! 😄",
-        "skillFilterWeb": "Web Develop",
-        "skillFilterDesign": "3D & Design",
-        "skillFilterInspire": "Teaching Achievements",
+        "wellHi": "Hi! I'm",
+        "wellShortDescription": "Frontend Developer & Software Engineer",
+        "wellLongDescription": "I turn complex problems into intuitive interfaces. I've worked with distributed teams across the UK, Spain, and Italy, providing technical solutions, aligning business needs with code, and making sure everything reaches production without any drama.",
+         "wellLetsColaborate": "At the end of the day, my work is all about turning chaos into clarity… ideally with a good coffee ☕😄",
+        "skillFilterWeb": "Professional Experience",
+        "skillFilterDesign": "Personal Projects",
+        "skillFilterInspire": "Achievements",
         "showMeProjects": "Show more",
         "skills": [
             {
-                "id": 1,
+                "id": "workExperience",
                 "logo": "build",
                 "title": "Frontend Developer",
                 "content": "During my year of experience as a frontend developer, I've consistently strived to focus on the minutest details, aiming to enhance the user experience to the fullest extent."
             },
             {
-                "id": 2,
+                "id": "sideProjects",
                 "logo": "design",
                 "title": "3D Modelling & Design",
                 "content": "As I've mentioned, my passion is creating. I also enjoy designing in both 2D and 3D. Take a look at my portfolio to explore my creations!"
             },
             {
-                "id": 3,
+                "id": "achievements",
                 "logo": "teach",
                 "title": "Software Dev Teacher",
                 "content": "Over 5 years of experience as a software development teacher. I've also been a mentor in various national and international competitions and challenges."
@@ -39,29 +39,29 @@
         "navSkills": "Habilidades",
         "navProjects": "Proyectos",
         "navContact": "Contacto",
-        "wellHi": "¡Hola! Al habla",
-        "wellShortDescription": "Desarrollador de Frontend y Diseñador 3D",
-        "wellLongDescription": "Siempre he disfrutado crear, por eso me dedico al mundo del desarrollo. Actualmente, comparto mis conocimientos con más personas para transmitir lo apasionante de esta área.",
-        "wellLetsColaborate": "¡Colaboremos para dar vida a tus proyectos! 😄",
-        "skillFilterWeb": "Desarrollo Web",
-        "skillFilterDesign": "3D & Diseño",
-        "skillFilterInspire": "Experiencia docente",
+        "wellHi": "¡Hola! Soy",
+        "wellShortDescription": "Desarrollador Frontend y Software Engineer",
+        "wellLongDescription": "Convierto problemas complejos en interfaces intuitivas. He trabajado con equipos geodistribuidos entre Reino Unido, España e Italia aportando soluciones técnicas, alineando necesidades del negocio con el código y asegurando que todo llegue a producción sin dramas.",
+        "wellLetsColaborate": "Al final, mi trabajo va de transformar caos en claridad… con un buen café si es posible 😄☕",
+        "skillFilterWeb": "Experiencia Profesional",
+        "skillFilterDesign": "Proyectos Personales",
+        "skillFilterInspire": "Logros",
         "showMeProjects": "Muéstrame más",
         "skills": [
             {
-                "id": 1,
+                "id": "workExperience",
                 "logo": "build",
                 "title": "Desarrollador Frontend",
                 "content": "Con un año de experiencia como desarrollador frontend siempre intento prestar la máxima atención al detalle para aportar la mejor experiencia al usuario."
             },
             {
-                "id": 2,
+                "id": "sideProjects",
                 "logo": "design",
                 "title": "Modelador y Diseñador 3D",
                 "content": "Como he mencionado, mi pasión es crear. También disfruto diseñando tanto en 2D como en 3D. ¡Echa un vistazo a mi portafolio para explorar mis creaciones!"
             },
             {
-                "id": 3,
+                "id": "achievements",
                 "logo": "teach",
                 "title": "Profesor de Desarrollo",
                 "content": "Cuento con más de 5 años de experiencia como profesor de desarrollo de software. Mentor en varias competiciones y desafios nacionales e internacionales."

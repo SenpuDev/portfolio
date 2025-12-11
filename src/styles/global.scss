@@ -63,19 +63,19 @@ h3 {
     }
 
     @media (min-width:1640px) {
-        font-size: var(--xxl);
+        font-size: var(--3xl);
     }
 }
 
 h2 {
-    font-size: var(--xl);
+    font-size: var(--2xl);
 }
 
 h1 {
-    font-size: var(--xxl);
+    font-size: var(--3xl);
 
     @media (min-width:1640px) {
-        font-size: var(--xxxl);
+        font-size: var(--4xl);
     }
 }
 

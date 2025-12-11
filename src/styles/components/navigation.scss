@@ -72,7 +72,7 @@
         }
 
         @media (min-width: 1280px) {
-            font-size: var(--l2);
+            font-size: var(--xl);
             display: block;
             writing-mode: horizontal-tb;
             transform: scale(1);
@@ -83,14 +83,19 @@
             text-shadow: 0 0 4rem var(--particles-primary), 0 0 3rem var(--particles-primary), 0 0 2rem var(--particles-primary), 0 0 1rem var(--particles-primary);
 
             span:before {
+                font-family: "VT323", monospace;
                 width: 20px;
-                content: '-- ';
+                font-size: var(--2xl);
+                content: '> ';
             }
         }
 
         span:before {
-            content: '// ';
+            font-family: "VT323", monospace;
+            content: '| ';
+            color: var(--particles-primary);
             width: 20px;
+            font-size: var(--2xl);
             margin: 0rem 0rem 1rem 0rem;
 
 

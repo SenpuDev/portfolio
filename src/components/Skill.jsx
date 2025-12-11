@@ -19,8 +19,8 @@ const Skill = ({ skill }) => {
   const { language, webContent } = useLanguage()
   const { showMeProjects } = webContent[language]
 
-  const handleClick = (skillId) => {
-    setFilters(skillId)
+  const handleClick = (filterKey) => {
+    setFilters(filterKey)
     scrollToSection(projects)
   }
 
@@ -48,7 +48,12 @@ const Skill = ({ skill }) => {
       </div>
 
       <div className='button-wrap'>
-        <button className={'button-shine ' + (filters === id ? 'active' : '')} onClick={() => handleClick(id)}>{showMeProjects}</button>
+        <button
+          className={'button-shine ' + (filters === id ? 'active' : '')}
+          onClick={() => handleClick(id)}
+        >
+          {showMeProjects}
+        </button>
       </div>
 
     </div>

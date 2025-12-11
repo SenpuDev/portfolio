@@ -4,6 +4,7 @@ import ReactIcon from './../img/icons/react.svg'
 import Html5Icon from './../img/icons/html.svg'
 import CssIcon from './../img/icons/css3.svg'
 import JsIcon from './../img/icons/javascript.svg'
+import TypescriptIcon from './../img/icons/typescript.svg'
 import ExternalLinkIcon from './../img/icons/external-link.svg'
 import GitHubIcon from './../img/icons/github.svg'
 import StrapiIcon from './../img/icons/strapi.svg'
@@ -18,7 +19,11 @@ import TailwindIcon from './../img/icons/tailwind.svg'
 import MongoDBIcon from './../img/icons/mongodb.svg'
 import NodeIcon from './../img/icons/node.svg'
 import ZbrushIcon from './../img/icons/zbrush.svg'
-
+import NextjsIcon from './../img/icons/nextjs.svg'
+import PythonIcon from './../img/icons/python.svg'
+import DockerIcon from './../img/icons/docker.svg'
+import AwsIcon from './../img/icons/aws.svg'
+import CIcon from './../img/icons/c++.svg'
 import useModal from '../hooks/useContext/useModal'
 import { capitalizeFirstChar } from '../helpers/capitalizeFirstChar'
 import useInViewShow from '../hooks/useInViewShow'
@@ -26,7 +31,7 @@ import { useState } from 'react'
 
 const Project = ({ project }) => {
   const { setModal, setUrl } = useModal()
-  const { title, type, description, cardimage, cardtext, techicons, github, deploy, extracomment, demovideo } = project
+  const { title, type, description, cardimage, cardtext, techicons, github, deploy, extracomment, demovideo, duration } = project
 
   const [activeActions, setActiveActions] = useState(false)
 
@@ -42,7 +47,13 @@ const Project = ({ project }) => {
   // Dictionary for icons
   const technologiesDictionary = {
     javascript: JsIcon,
+    typescript: TypescriptIcon,
     sass: SassIcon,
+    nextjs: NextjsIcon,
+    python: PythonIcon,
+    docker: DockerIcon,
+    aws: AwsIcon,
+    'c++': CIcon,
     react: ReactIcon,
     html5: Html5Icon,
     css3: CssIcon,
@@ -66,7 +77,13 @@ const Project = ({ project }) => {
     <>
       <div className={'project ' + (isInView ? 'shine' : '')} ref={elementToObserve} key={title}>
         <div className='project__title'>
-          <h3>{title}</h3>
+          <h3>  
+            {title}
+            <span>
+              ({duration})
+            </span>
+          </h3>
+         
           <span>{type}</span>
         </div>
 
