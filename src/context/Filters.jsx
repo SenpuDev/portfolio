@@ -7,7 +7,6 @@ export const FiltersContext = createContext()
 export const FILTER_OPTIONS = {
   WORK_EXPERIENCE: 'workExperience',
   SIDE_PROJECTS: 'sideProjects',
-  ACHIEVEMENTS: 'achievements',
   ALL: 'all'
 }
 
