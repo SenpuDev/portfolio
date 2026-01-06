@@ -1,70 +1,82 @@
 {
     "en": {
         "navWelcome": "Welcome",
-        "navSkills": "Skills",
+        "navSkills": "Achievements",
         "navProjects": "Projects",
         "navContact": "Contact",
         "wellHi": "Hi! I'm",
-        "wellShortDescription": "Frontend Developer & Software Engineer",
+        "wellShortDescription": "Software Engineer - Currently working at Macrovesta",
         "wellLongDescription": "I turn complex problems into intuitive interfaces. I've worked with distributed teams across the UK, Spain, and Italy, providing technical solutions, aligning business needs with code, and making sure everything reaches production without any drama.",
-         "wellLetsColaborate": "At the end of the day, my work is all about turning chaos into clarity… ideally with a good coffee ☕😄",
+        "wellLetsColaborate": "At the end of the day, my work is all about turning chaos into clarity… ideally with a good coffee ☕😄",
         "skillFilterWeb": "Professional Experience",
         "skillFilterDesign": "Personal Projects",
         "skillFilterInspire": "Achievements",
         "showMeProjects": "Show more",
+        "watchVideo": "Watch video",
+        "readNews": "Read article",
         "skills": [
             {
                 "id": "workExperience",
                 "logo": "build",
-                "title": "Frontend Developer",
-                "content": "During my year of experience as a frontend developer, I've consistently strived to focus on the minutest details, aiming to enhance the user experience to the fullest extent."
+                "title": "Top 30 Global Innovators - Asia-Pacific Agri-Food Summit (Singapore)",
+                "content": "Macrovesta, recognized among the Top 30 Global Innovators. I developed the frontend architecture of the product that received international recognition for its impact on pricing strategy and risk management in the agri-food chain.",
+                "url": "https://agrifoodinnovation.com/articles/meet-30-global-innovators-disrupting-agri-food-landscape-asia",
+                "urlVideo": "https://www.youtube.com/watch?v=4Q4r4Hj49oU"
             },
             {
-                "id": "sideProjects",
-                "logo": "design",
-                "title": "3D Modelling & Design",
-                "content": "As I've mentioned, my passion is creating. I also enjoy designing in both 2D and 3D. Take a look at my portfolio to explore my creations!"
-            },
-            {
-                "id": "achievements",
+                "id": "technovationMentor",
                 "logo": "teach",
-                "title": "Software Dev Teacher",
-                "content": "Over 5 years of experience as a software development teacher. I've also been a mentor in various national and international competitions and challenges."
+                "title": "Best Programming Award in Murcia - Technovation Challenge",
+                "content": "Mentored the O2Save team during the Technovation Challenge 2019, guiding participants in developing a mobile application focused on environmental protection. Their application won the Best Programming Award in the Murcia region.",
+                "url": "https://www.murcia.com/noticias/2019/05/19-una-aplicacion-creada-por-estudiantes-para-la-mejora-de-la-calidad-del-aire-consigue-el-i-premio-ciudad-de-murcia.asp"
+            },
+            {
+                "id": "coriHackathonMentor",
+                "logo": "design",
+                "title": "Cori Hackathon 2020 Mentor",
+                "content": "Mentored invited participants at the Cori Hackathon 2020, where they presented an augmented reality application to raise awareness about the importance of oceans.",
+                "url": "https://mmmacademy.es/cori-2020/"
             }
         ],
         "contactSendEmail": "Send me an email!"
     },
     "es": {
         "navWelcome": "Bienvenido",
-        "navSkills": "Habilidades",
+        "navSkills": "Logros",
         "navProjects": "Proyectos",
         "navContact": "Contacto",
         "wellHi": "¡Hola! Soy",
-        "wellShortDescription": "Desarrollador Frontend y Software Engineer",
+        "wellShortDescription": "Desarrollador de Software - Actualmente trabajando en Macrovesta",
         "wellLongDescription": "Convierto problemas complejos en interfaces intuitivas. He trabajado con equipos geodistribuidos entre Reino Unido, España e Italia aportando soluciones técnicas, alineando necesidades del negocio con el código y asegurando que todo llegue a producción sin dramas.",
-        "wellLetsColaborate": "Al final, mi trabajo va de transformar caos en claridad… con un buen café si es posible 😄☕",
+        "wellLetsColaborate": "Mi trabajo es convertir caos en claridad… con un buen café si es posible 😄☕",
         "skillFilterWeb": "Experiencia Profesional",
         "skillFilterDesign": "Proyectos Personales",
         "skillFilterInspire": "Logros",
         "showMeProjects": "Muéstrame más",
+        "watchVideo": "Ver video",
+        "readNews": "Ver noticia",
         "skills": [
             {
                 "id": "workExperience",
                 "logo": "build",
-                "title": "Desarrollador Frontend",
-                "content": "Con un año de experiencia como desarrollador frontend siempre intento prestar la máxima atención al detalle para aportar la mejor experiencia al usuario."
+                "title": "Top 30 Innovadores Globales - Asia-Pacific Agri-Food Summit (Singapur)",
+                "content": "Macrovesta, reconocido entre los Top 30 Innovadores Globales. Desarrollé la arquitectura frontend del producto que obtuvo reconocimiento internacional por su impacto en la estrategia de precios y la gestión del riesgo en la cadena agri-food.",
+                "url": "https://agrifoodinnovation.com/articles/meet-30-global-innovators-disrupting-agri-food-landscape-asia",
+                "urlVideo": "https://www.youtube.com/watch?v=4Q4r4Hj49oU"
             },
             {
-                "id": "sideProjects",
-                "logo": "design",
-                "title": "Modelador y Diseñador 3D",
-                "content": "Como he mencionado, mi pasión es crear. También disfruto diseñando tanto en 2D como en 3D. ¡Echa un vistazo a mi portafolio para explorar mis creaciones!"
-            },
-            {
-                "id": "achievements",
+                "id": "technovationMentor",
                 "logo": "teach",
-                "title": "Profesor de Desarrollo",
-                "content": "Cuento con más de 5 años de experiencia como profesor de desarrollo de software. Mentor en varias competiciones y desafios nacionales e internacionales."
+                "title": "Premio a la Mejor Programación en Murcia - Desafío Technovation",
+                "content": "Mentor del equipo O2Save durante el Desafío Technovation 2019, guiando a los participantes en el desarrollo de una aplicación móvil dirigida a la protección del medio ambiente. Su aplicación obtuvo el Premio a la Mejor Programación en la región de Murcia.",
+                "url": "https://www.murcia.com/noticias/2019/05/19-una-aplicacion-creada-por-estudiantes-para-la-mejora-de-la-calidad-del-aire-consigue-el-i-premio-ciudad-de-murcia.asp"
+            },
+            {
+                "id": "coriHackathonMentor",
+                "logo": "design",
+                "title": "Mentor de Cori Hackathon 2020",
+                "content": "Mentor de los participantes invitados al Hackathon Cori 2020, donde presentaron una aplicación de realidad aumentada para crear consciencia sobre la importancia de los océanos.",
+                "url": "https://mmmacademy.es/cori-2020/"
             }
         ],
         "contactSendEmail": "¡Envíame un correo!"

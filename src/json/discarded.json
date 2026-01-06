@@ -6,7 +6,7 @@
     "cardimage": "img-projects/sculpt.webp",
     "cardtext": "Explorar Proyecto",
     "techicons": [
-        "zbrush"
+      "zbrush"
     ],
     "deploy": "https://www.artstation.com/artwork/erD8w",
     "demovideo": "https://player.vimeo.com/video/220383916?h=ea0b693ddc",
@@ -19,7 +19,7 @@
     "cardimage": "img-projects/fallout.webp",
     "cardtext": "Explorar Proyecto",
     "techicons": [
-        "autodesk"
+      "autodesk"
     ],
     "deploy": "https://www.artstation.com/artwork/v55d6",
     "category": "sideProjects"
@@ -36,15 +36,30 @@
     "category": "achievements"
   },
   {
-      "title": "Mentor de Cori Hackathon 2020",
-      "type": "Logro en la Enseñanza",
-      "description": "Mentor de los participantes invitados al Hackathon Cori 2020, donde presentaron una aplicación de realidad aumentada para crear consciencia sobre la importancia de los océanos.",
-      "cardimage": "img-projects/cori.webp",
-      "cardtext": "Leer Articulo",
-      "extracomment": "https://cori.institute/",
-      "techicons": [],
-      "deploy": "https://mmmacademy.es/cori-2020/",
-      "category": "achievements"
+    "title": "Mentor de Cori Hackathon 2020",
+    "type": "Logro en la Enseñanza",
+    "description": "Mentor de los participantes invitados al Hackathon Cori 2020, donde presentaron una aplicación de realidad aumentada para crear consciencia sobre la importancia de los océanos.",
+    "cardimage": "img-projects/cori.webp",
+    "cardtext": "Leer Articulo",
+    "extracomment": "https://cori.institute/",
+    "techicons": [],
+    "deploy": "https://mmmacademy.es/cori-2020/",
+    "category": "achievements"
+  },
+  {
+    "title": "Strapi para GuitarJam",
+    "type": "Proyecto Backend",
+    "description": "API desarrollada con Strapi y PostgreSQL, ofreciendo un sistema completo de gestión de contenido con operaciones CRUD seguras según roles y permisos. Sirve como backend headless para la aplicación GuitarJam.",
+    "cardimage": "img-projects/strapi.webp",
+    "duration": "2021",
+    "cardtext": "Visitar Proyecto",
+    "techicons": [
+      "postgresql",
+      "strapi"
+    ],
+    "github": "https://github.com/SenpuDev/guitarjam-strapi",
+    "deploy": "https://guitarjam-strapi.onrender.com/",
+    "demovideo": "https://www.youtube.com/embed/DXchI7sWKz4",
+    "category": "sideProjects"
   }
 ]
-

@@ -1,10 +1,55 @@
 {
     "en": [
         {
+            "title": "Macrovesta",
+            "type": "Lead Frontend Developer",
+            "description": "Financial platform designed to process and visualize market data. I lead the frontend architecture, REST API integration, and the creation of interactive dashboards for traders and analysts. I currently work with an international team distributed across the United Kingdom, Spain, and Italy, coordinating code reviews, weekly deliveries, and the elaboration of technical specifications.",
+            "cardimage": "img-projects/macrovesta.png",
+            "extracomment": "https://macrovesta.ai",
+            "cardtext": "View Platform",
+            "duration": "2022 - Present",
+            "techicons": [
+                "nextjs",
+                "typescript",
+                "docker",
+                "python",
+                "aws"
+            ],
+            "github": "",
+            "deploy": "https://macrovesta.ai",
+            "demovideo": "",
+            "category": "workExperience"
+        },
+        {
+            "title": "Open Source Contributor",
+            "type": "Contributor",
+            "duration": "2021 - 2022",
+            "description": "Collaborated with Microsoft developers to resolve and improve functionalities of the Azure API Management portal.",
+            "cardimage": "img-projects/open-source.png",
+            "extracomment": "https://github.com/Azure/api-management-developer-portal/pull/2276",
+            "cardtext": "View Contribution",
+            "techicons": [],
+            "deploy": "https://github.com/Azure/api-management-developer-portal/pull/2276",
+            "category": "workExperience"
+        },
+        {
+            "title": "MMMAcademy",
+            "type": "Programming and Design Trainer",
+            "duration": "2017 - 2021",
+            "description": "Over 4 years of experience training young people and adults in programming and design, fostering their passion and preparing them for the digital field.",
+            "cardimage": "img-projects/teaching-years.webp",
+            "extracomment": "https://mmmacademy.es/",
+            "cardtext": "Company website",
+            "techicons": [],
+            "deploy": "https://mmmacademy.es",
+            "category": "workExperience"
+        },
+        {
             "title": "TrackWave",
             "type": "FullStack Project",
-            "description": "Built using MERN Stack, this application facilitates collaborative real-time projects and tasks management among multiple users. It encompasses user authentication and email communication features.",
+            "description": "Built with MERN Stack. Application that allows collaborative real-time project and task management with other users. Includes user authentication, email sending, and websockets for real-time updates.",
             "cardimage": "img-projects/trackwave.webp",
+            "duration": "2022",
             "cardtext": "Visit Project",
             "techicons": [
                 "react",
@@ -15,13 +60,13 @@
             "github": "https://github.com/SenpuDev/trackwave",
             "deploy": "https://senpudev.github.io/trackwave/",
             "demovideo": "https://www.youtube.com/embed/5RVYzr1GLD8",
-            "category": "workExperience"
+            "category": "sideProjects"
         },
         {
             "title": "GuitarJam",
             "type": "FullStack Project",
-            "description": "Built with React - Remix Run (SSR). Simulation of a guitar store with dynamic content fetched from a own Strapi API. Available in both English and Spanish, with content that can vary dinamically thanks to the implementation of 'Internationalization'.",
-            "extracomment": "If deployed app takes a bit on obtain data please be patient. I'm using free deploy plans so sometimes it takes a while.",
+            "description": "Full Stack application built with Remix Run (SSR) and Strapi as a headless CMS. Includes a guitar store with dynamic content, complete management from the admin panel, and multi-language support.",
+            "duration": "2021",
             "cardimage": "img-projects/guitar-jam.webp",
             "cardtext": "Visit Project",
             "techicons": [
@@ -32,109 +77,37 @@
             "github": "https://github.com/SenpuDev/GuitarJAM",
             "deploy": "https://guitar-jam.vercel.app/",
             "demovideo": "https://www.youtube.com/embed/DXchI7sWKz4",
-            "category": "workExperience"
-        },
-        {
-            "title": "Strapi for GuitarJam",
-            "type": "Backend Project",
-            "description": "API built from strapi, with a postgres database hosted on the server. Mainly built to practice building API's in a simple way and feed 'guitarjam' frontend (upload soon on github pages). For sure, it can run any CRUD action with the proper permissions.",
-            "cardimage": "img-projects/strapi.webp",
-            "cardtext": "Visit Project",
-            "techicons": [
-                "postgresql",
-                "strapi"
-            ],
-            "github": "https://github.com/SenpuDev/guitarjam-strapi",
-            "deploy": "https://guitarjam-strapi.onrender.com/",
-            "demovideo": "https://www.youtube.com/embed/DXchI7sWKz4",
-            "category": "workExperience"
+            "category": "sideProjects"
         },
         {
             "title": "Coin Checkr",
             "type": "FrontEnd Project",
-            "description": "Coin checkr shows the value of our currency (EUR, USD, GBP...) in the current cryptocurrency market (Bitcoin, Cardano, OKB...). It uses the cryptocompare API for real-time queries.",
+            "description": "Simple application for querying cryptocurrency prices in real-time using the CryptoCompare public API. Includes conversion between currencies (EUR, USD, GBP) and simplified visualization of market values.",
             "cardimage": "img-projects/coin-checkr.webp",
             "cardtext": "Visit Project",
+            "duration": "2021",
             "techicons": [
                 "react",
                 "styledcomponents"
             ],
             "github": "https://github.com/SenpuDev/coin-checkr",
             "deploy": "https://senpudev.github.io/coin-checkr/",
-            "category": "workExperience"
-        },
-        {
-            "title": "Druid Elf Design & Sculpt",
-            "type": "3D Modelling",
-            "description": "Digital sculpture created from an original design, portraying an elven druidess in intricate detail.",
-            "cardimage": "img-projects/sculpt.webp",
-            "cardtext": "Explore Project",
-            "techicons": [
-                "zbrush"
-            ],
-            "deploy": "https://www.artstation.com/artwork/erD8w",
-            "demovideo": "https://player.vimeo.com/video/220383916?h=ea0b693ddc",
             "category": "sideProjects"
         },
         {
-            "title": "SKOMIA Videogame development",
+            "title": "SKOMIA",
             "type": "Videogame development",
-            "description": "Original character & development for Skomia videogame. Since character concept until integration to graphic engine including modelling, texturing, rigging and animations.",
-            "cardimage": "img-projects/skomia.webp",
+            "description": "SKOMIA videogame development focused on asset creation and integration, and implementation of gameplay features within Unreal Engine with C++.",
+            "duration": "2015 to 2017",
+            "cardimage": "img-projects/skomia.png",
             "cardtext": "Explore Project",
             "techicons": [
                 "autodesk",
-                "unreal"
+                "unreal",
+                "c++"
             ],
             "deploy": "https://www.artstation.com/artwork/v55d6",
-            "demovideo": "https://sketchfab.com/models/8756a8000e884170988620c3b4270392/embed",
             "category": "sideProjects"
-        },
-        {
-            "title": "Plasma Rifle Modelling",
-            "type": "3D Modelling",
-            "description": "Redesign of multiplasma rifle from Fallout series. Modelling, texturing and retopology for graphic engine integration.",
-            "cardimage": "img-projects/fallout.webp",
-            "cardtext": "Explore Project",
-            "techicons": [
-                "autodesk"
-            ],
-            "deploy": "https://www.artstation.com/artwork/xLQxO",
-            "demovideo": "https://player.vimeo.com/video/217743537?h=a529570469",
-            "category": "sideProjects"
-        },
-        {
-            "title": "Empowering Youth in Programming & Design",
-            "type": "Experience",
-            "description": "Through 5 years of dedicated work, I have empowered young individuals in the realms of programming and design, fostering their passion and equipping them with the tools to succeed in the dynamic and ever-expanding digital arena.",
-            "cardimage": "img-projects/teaching-years.webp",
-            "extracomment": "https://mmmacademy.es/",
-            "cardtext": "Company website",
-            "techicons": [],
-            "deploy": "https://mmmacademy.es",
-            "category": "achievements"
-        },
-        {
-            "title": "Technovation Challenge Mentor",
-            "type": "Teaching achievement",
-            "description": "Mentor during Technovation Challenge 2019 with O2Save, guiding young participants in developing a mobile application aimed at environmental protection. Their exceptional programming skills led them to win the Best Programming Award in the Murcia region.",
-            "cardimage": "img-projects/technovation.webp",
-            "cardtext": "Read Article",
-            "extracomment": "https://technovationchallenge.org/",
-            "techicons": [],
-            "deploy": "https://www.murcia.com/noticias/2019/05/19-una-aplicacion-creada-por-estudiantes-para-la-mejora-de-la-calidad-del-aire-consigue-el-i-premio-ciudad-de-murcia.asp",
-            "category": "achievements"
-        },
-        {
-            "title": "Hackaton 2020 Cori Mentoring",
-            "type": "Teaching achievement",
-            "description": "Mentor of the talented young participants invited to the Cori Hackathon 2020, where they showcased a remarkable augmented reality app to raise awareness about the significance of our oceans.",
-            "cardimage": "img-projects/cori.webp",
-            "cardtext": "Read Article",
-            "extracomment": "https://cori.institute/",
-            "techicons": [],
-            "deploy": "https://mmmacademy.es/cori-2020/",
-            "category": "achievements"
         }
     ],
     "es": [
@@ -143,6 +116,7 @@
             "type": "Lider de Desarrollo Frontend",
             "description": "Plataforma financiera diseñada para procesar y visualizar datos del mercado. Lidero la arquitectura frontend, la integración con APIs REST y la creación de dashboards interactivos para traders y analistas. Actualmente trabajo junto a un equipo internacional distribuido entre Reino Unido, España e Italia, coordinando revisiones de código, entregas semanales y la elaboración de especificaciones técnicas.",
             "cardimage": "img-projects/macrovesta.png",
+            "extracomment": "https://macrovesta.ai",
             "cardtext": "Ver Plataforma",
             "duration": "2022 - Presente",
             "techicons": [
@@ -203,7 +177,7 @@
             "title": "GuitarJam",
             "type": "Proyecto FullStack",
             "description": "Aplicación Full Stack construida con Remix Run (SSR) y Strapi como CMS headless. Incluye una tienda de guitarras con contenido dinámico, gestión completa desde el panel de administración y soporte multilenguaje.",
-            "extracomment": "Si la aplicación desplegada tarda un poco en obtener datos, por favor, ten paciencia. Estoy utilizando planes de despliegue gratuitos, por lo que a veces lleva un tiempo.",
+   
             "duration": "2021",
             "cardimage": "img-projects/guitar-jam.webp",
             "cardtext": "Visitar Proyecto",
@@ -214,22 +188,6 @@
             ],
             "github": "https://github.com/SenpuDev/GuitarJAM",
             "deploy": "https://guitar-jam.vercel.app/",
-            "demovideo": "https://www.youtube.com/embed/DXchI7sWKz4",
-            "category": "sideProjects"
-        },
-        {
-            "title": "Strapi para GuitarJam",
-            "type": "Proyecto Backend",
-            "description": "API desarrollada con Strapi y PostgreSQL, ofreciendo un sistema completo de gestión de contenido con operaciones CRUD seguras según roles y permisos. Sirve como backend headless para la aplicación GuitarJam.",
-            "cardimage": "img-projects/strapi.webp",
-            "duration": "2021",
-            "cardtext": "Visitar Proyecto",
-            "techicons": [
-                "postgresql",
-                "strapi"
-            ],
-            "github": "https://github.com/SenpuDev/guitarjam-strapi",
-            "deploy": "https://guitarjam-strapi.onrender.com/",
             "demovideo": "https://www.youtube.com/embed/DXchI7sWKz4",
             "category": "sideProjects"
         },
