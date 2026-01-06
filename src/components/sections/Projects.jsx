@@ -24,26 +24,35 @@ const Projects = () => {
       )}
 
       <div className='projects-list' ref={elementToObserve}>
-        <div className='filters'>
-          <button
-            className={filters === FILTER_OPTIONS.WORK_EXPERIENCE ? 'active' : ''}
-            onClick={() => handleClick(FILTER_OPTIONS.WORK_EXPERIENCE)}
-          >
-            {skillFilterWeb}
-          </button>
-          <button
-            className={filters === FILTER_OPTIONS.SIDE_PROJECTS ? 'active' : ''}
-            onClick={() => handleClick(FILTER_OPTIONS.SIDE_PROJECTS)}
-          >
-            {skillFilterDesign}
-          </button>
-          
+        <div className='projects-header'>
+          <h2>{webContent[language].navProjects}</h2>
+          {/* <div className='header-separator'></div> */}
+          <div className='filters'>
+            <button
+              className={filters === FILTER_OPTIONS.WORK_EXPERIENCE ? 'active' : ''}
+              onClick={() => handleClick(FILTER_OPTIONS.WORK_EXPERIENCE)}
+            >
+              {skillFilterWeb}
+            </button>
+            <button
+              className={filters === FILTER_OPTIONS.SIDE_PROJECTS ? 'active' : ''}
+              onClick={() => handleClick(FILTER_OPTIONS.SIDE_PROJECTS)}
+            >
+              {skillFilterDesign}
+            </button>
+            
+          </div>
         </div>
         {isInView && (
           <>
-            {projects.map((project) => {
+            {projects.map((project, index) => {
               if (project.category === filters || filters === FILTER_OPTIONS.ALL) {
-                return <Project project={project} key={project.title} />
+                return <>
+                  <Project 
+                    project={project}  
+                    key={project.title} 
+                  />
+                </>
               }
               return null
             })}
