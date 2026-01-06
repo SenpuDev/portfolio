@@ -40,7 +40,9 @@
             "cardimage": "img-projects/teaching-years.webp",
             "extracomment": "https://mmmacademy.es/",
             "cardtext": "Company website",
-            "techicons": [],
+            "techicons": [
+                "lua"
+            ],
             "deploy": "https://mmmacademy.es",
             "category": "workExperience"
         },
@@ -151,7 +153,9 @@
             "cardimage": "img-projects/teaching-years.webp",
             "extracomment": "https://mmmacademy.es/",
             "cardtext": "Web de empresa",
-            "techicons": [],
+            "techicons": [
+                "lua"
+            ],
             "deploy": "https://mmmacademy.es",
             "category": "workExperience"
         },
@@ -177,7 +181,6 @@
             "title": "GuitarJam",
             "type": "Proyecto FullStack",
             "description": "Aplicación Full Stack construida con Remix Run (SSR) y Strapi como CMS headless. Incluye una tienda de guitarras con contenido dinámico, gestión completa desde el panel de administración y soporte multilenguaje.",
-   
             "duration": "2021",
             "cardimage": "img-projects/guitar-jam.webp",
             "cardtext": "Visitar Proyecto",
