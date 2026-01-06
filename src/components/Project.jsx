@@ -24,6 +24,7 @@ import PythonIcon from './../img/icons/python.svg'
 import DockerIcon from './../img/icons/docker.svg'
 import AwsIcon from './../img/icons/aws.svg'
 import CIcon from './../img/icons/c++.svg'
+import LuaIcon from './../img/icons/lua.svg'
 import useModal from '../hooks/useModal'
 import { capitalizeFirstChar } from '../helpers/capitalizeFirstChar'
 import useInViewShow from '../hooks/useInViewShow'
@@ -68,7 +69,8 @@ const Project = ({ project }) => {
     tailwind: TailwindIcon,
     mongodb: MongoDBIcon,
     node: NodeIcon,
-    zbrush: ZbrushIcon
+    zbrush: ZbrushIcon,
+    lua: LuaIcon
   }
 
   const { elementToObserve, isInView } = useInViewShow(false)
