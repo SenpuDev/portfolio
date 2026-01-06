@@ -88,31 +88,43 @@ const Project = ({ project }) => {
         </div>
 
         {/* Mobile hover better user experience */}
-        <div
-          className={`project__card ${activeActions ? 'active-actions' : ''}`}
+        <div 
+          className='project__card-wrapper'
           onMouseEnter={handleHoverActiveActions}
           onMouseLeave={handleLeaveActiveActions}
           onTouchStart={handleHoverActiveActions}
         >
-          <img className='card-background ' src={cardimage} alt='Project screenshot' />
-          <div className='card-inside'>
-            {demovideo && (
-              <div className='button-wrap'>
-                <button className='button-shine' onClick={() => [setModal(true), setUrl(demovideo)]}>Demo Video</button>
-              </div>
-            )}
-            {cardtext && (
-              <a className='button-wrap' target='_blank' href={deploy} aria-label='Visit project or news' rel='noreferrer'>
-                <button className='button-shine'>{cardtext}</button>
-              </a>
-            )}
+          <div
+            className={`project__card ${activeActions ? 'active-actions' : ''}`}
+          >
+            <img className='card-background ' src={cardimage} alt='Project screenshot' />
+            <div className='card-inside'>
+              {demovideo && (
+                <div className='button-wrap'>
+                  <button className='button-shine' onClick={() => [setModal(true), setUrl(demovideo)]}>Demo Video</button>
+                </div>
+              )}
+              {cardtext && (
+                <a className='button-wrap' target='_blank' href={deploy} aria-label='Visit project or news' rel='noreferrer'>
+                  <button className='button-shine'>{cardtext}</button>
+                </a>
+              )}
+            </div>
           </div>
         </div>
 
         <div className='project__info'>
           <div className='project-description'>
             <p>{description}</p>
-            {extracomment?.length && <p className='extra-comment'>{extracomment}</p>}
+            {extracomment?.length && (
+              extracomment.startsWith('http://') || extracomment.startsWith('https://') ? (
+                <a href={extracomment} target="_blank" rel="noopener noreferrer" className="extra-comment">
+                  {extracomment}
+                </a>
+              ) : (
+                <p className='extra-comment'>{extracomment}</p>
+              )
+            )}
           </div>
           <div className='project-icons'>
             <div className='tecnologies'>
