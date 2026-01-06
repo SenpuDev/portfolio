@@ -1,7 +1,7 @@
 import { scrollToSection } from '../helpers/scrollToSection'
-import useFilters from '../hooks/useContext/useFilters'
-import useScrollRefs from '../hooks/useContext/useScrollRefs'
-import useLanguage from '../hooks/useContext/useLanguage'
+import useFilters from '../hooks/useFilters'
+import useScrollRefs from '../hooks/useScrollRefs'
+import useLanguage from '../hooks/useLanguage'
 
 import Lottie from 'lottie-react'
 

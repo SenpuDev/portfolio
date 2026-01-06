@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'react'
 
 export const useNavBar = () => {
-  // Identify distance since top for show navBar
+
   const [scrollTop, setScrollTop] = useState(0)
-  // Show or not?
   const [navBarShow, setNavBarShow] = useState(false)
 
-  // Logic on scroll
+  // on scroll
   useEffect(() => {
     const handleScroll = (event) => {
       setScrollTop(window.scrollY)

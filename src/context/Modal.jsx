@@ -1,9 +1,7 @@
 import { createContext, useState } from 'react'
 
-// Create the context - That is our extract value
 export const ModalContext = createContext()
 
-// Provide the App the context
 export function ModalProvider ({ children }) {
   const [modal, setModal] = useState(false)
   const [url, setUrl] = useState('')

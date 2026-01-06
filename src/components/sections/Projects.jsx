@@ -1,9 +1,9 @@
 import Project from '../Project'
-import useLanguage from '../../hooks/useContext/useLanguage'
-import useFilters from '../../hooks/useContext/useFilters'
+import useLanguage from '../../hooks/useLanguage'
+import useFilters from '../../hooks/useFilters'
 import { FILTER_OPTIONS } from '../../context/Filters'
 import useInViewShow from '../../hooks/useInViewShow'
-import useModal from '../../hooks/useContext/useModal'
+import useModal from '../../hooks/useModal'
 import Modal from '../Modal'
 
 const Projects = () => {
@@ -37,12 +37,7 @@ const Projects = () => {
           >
             {skillFilterDesign}
           </button>
-          <button
-            className={filters === FILTER_OPTIONS.ACHIEVEMENTS ? 'active' : ''}
-            onClick={() => handleClick(FILTER_OPTIONS.ACHIEVEMENTS)}
-          >
-            {skillFilterInspire}
-          </button>
+          
         </div>
         {isInView && (
           <>

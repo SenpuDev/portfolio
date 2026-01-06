@@ -1,7 +1,7 @@
 import { scrollToSection } from '../helpers/scrollToSection'
 import useToggleMenu from '../hooks/useToggleMenu'
-import useLanguage from '../hooks/useContext/useLanguage'
-import useScrollRefs from '../hooks/useContext/useScrollRefs'
+import useLanguage from '../hooks/useLanguage'
+import useScrollRefs from '../hooks/useScrollRefs'
 
 const Navigation = ({ navBarShow }) => {
   // Custom Hook - NavBarLogic

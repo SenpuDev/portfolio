@@ -1,6 +1,6 @@
 import Skill from '../Skill'
 import useInViewShow from '../../hooks/useInViewShow'
-import useLanguage from '../../hooks/useContext/useLanguage'
+import useLanguage from '../../hooks/useLanguage'
 
 const Skills = () => {
   const { elementToObserve, isInView } = useInViewShow()

@@ -1,10 +1,8 @@
 import { useState } from 'react'
 import { useInViewEffect } from 'react-hook-inview'
 
-// Custom Hook using "react-hook-inview" library
-
 const useInViewShow = (unobserve = true) => {
-  // Observes the target and activate "show" only once
+
   const [isInView, setIsInView] = useState(false)
 
   const elementToObserve = useInViewEffect(

@@ -6,12 +6,11 @@ import Welcome from './components/sections/Welcome'
 import Projects from './components/sections/Projects'
 import Skills from './components/sections/Skills'
 import Footer from './components/Footer'
-import useScrollRefs from './hooks/useContext/useScrollRefs'
+import useScrollRefs from './hooks/useScrollRefs.jsx'
 import { Suspense, lazy } from 'react'
 
 function App () {
   const { skills, projects } = useScrollRefs()
-  // Big libraries
   const ParticlesBG = lazy(() => import('./components/ParticlesBg.jsx'))
 
   return (
@@ -23,13 +22,11 @@ function App () {
         <section className='welcome'>
           <Welcome />
         </section>
-
-        <section className='skills' ref={skills}>
-          <Skills />
-        </section>
-
         <section className='projects' ref={projects}>
           <Projects />
+        </section>
+        <section className='skills' ref={skills}>
+          <Skills />
         </section>
       </main>
 

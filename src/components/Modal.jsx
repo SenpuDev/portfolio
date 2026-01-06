@@ -1,5 +1,5 @@
 import React from 'react'
-import useModal from '../hooks/useContext/useModal'
+import useModal from '../hooks/useModal'
 
 const Modal = () => {
   const { url, fadeOutAndClose, fadeOut } = useModal()

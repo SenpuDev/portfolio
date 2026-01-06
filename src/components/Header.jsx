@@ -1,7 +1,7 @@
 import Logo from './../img/senpuLogo.webp'
 import Navigation from './Navigation'
-import useLanguage from '../hooks/useContext/useLanguage'
-import useScrollRefs from '../hooks/useContext/useScrollRefs'
+import useLanguage from '../hooks/useLanguage'
+import useScrollRefs from '../hooks/useScrollRefs'
 import { useNavBar } from '../hooks/useNavBar'
 
 const Header = () => {

@@ -1,6 +1,6 @@
 import useInViewShow from '../../hooks/useInViewShow'
 import { Suspense, lazy } from 'react'
-import useLanguage from '../../hooks/useContext/useLanguage'
+import useLanguage from '../../hooks/useLanguage'
 import Lottie from 'lottie-react'
 import ScrollLottie from '../../img/lotties/scroll.json'
 import MailLottie from '../../img/lotties/mail.json'

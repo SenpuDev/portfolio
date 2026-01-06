@@ -140,11 +140,11 @@
     "es": [
         {
             "title": "Macrovesta",
-            "type": "Lead Frontend & Full Stack Developer",
-            "description": "Plataforma financiera diseñada para procesar y visualizar millones de puntos de datos del mercado. Lideré la arquitectura frontend, la integración con APIs REST y la creación de dashboards interactivos para traders y analistas. Trabajé junto a un equipo internacional distribuido entre Reino Unido, España e Italia, coordinando revisiones de código, entregas semanales y la elaboración de especificaciones técnicas.",
+            "type": "Lider de Desarrollo Frontend",
+            "description": "Plataforma financiera diseñada para procesar y visualizar datos del mercado. Lidero la arquitectura frontend, la integración con APIs REST y la creación de dashboards interactivos para traders y analistas. Actualmente trabajo junto a un equipo internacional distribuido entre Reino Unido, España e Italia, coordinando revisiones de código, entregas semanales y la elaboración de especificaciones técnicas.",
             "cardimage": "img-projects/macrovesta.png",
             "cardtext": "Ver Plataforma",
-            "duration": "2022 to Present",
+            "duration": "2022 - Presente",
             "techicons": [
                 "nextjs",
                 "typescript",
@@ -158,21 +158,21 @@
             "category": "workExperience"
         },
         {
-            "title": "Open Source Contributor",
-            "type": "Freelance",
-            "duration": "2021 to 2022",
-            "description": "Colaboré con mantenedores de Microsoft para resolver y mejorar funcionalidades del portal de Azure API Management.",
+            "title": "Contribuidor de Código Abierto",
+            "type": "Contribuidor",
+            "duration": "2021 - 2022",
+            "description": "Colaboré con desarrolladores de Microsoft para resolver y mejorar funcionalidades del portal de Azure API Management.",
             "cardimage": "img-projects/open-source.png",
             "extracomment": "https://github.com/Azure/api-management-developer-portal/pull/2276",
-            "cardtext": "View Merged Contribution",
+            "cardtext": "Ver Contribución",
             "techicons": [],
             "deploy": "https://github.com/Azure/api-management-developer-portal/pull/2276",
             "category": "workExperience"
         },
         {
-            "title": "Formador en Programación y Diseño",
-            "type": "Experiencia",
-            "duration": "2017 to 2021",
+            "title": "MMMAcademy",
+            "type": "Formador de Programación y Diseño",
+            "duration": "2017 - 2021",
             "description": "Más de 4 años de experiencia formando a jovenes y adultos en los ámbitos de la programación y el diseño, fomentando su pasión y preparandolos en el campo digital.",
             "cardimage": "img-projects/teaching-years.webp",
             "extracomment": "https://mmmacademy.es/",
@@ -236,7 +236,7 @@
         {
             "title": "Coin Checkr",
             "type": "Proyecto FrontEnd",
-            "description": "Aplicación frontend desarrollada con React que consulta precios de criptomonedas en tiempo real mediante la API pública de CryptoCompare. Incluye conversión entre divisas (EUR, USD, GBP) y visualización simplificada de valores de mercado.",
+            "description": "Aplicación sencilla para la consulta de precios de criptomonedas en tiempo real mediante la API pública de CryptoCompare. Incluye conversión entre divisas (EUR, USD, GBP) y visualización simplificada de valores de mercado.",
             "cardimage": "img-projects/coin-checkr.webp",
             "cardtext": "Visitar Proyecto",
             "duration": "2021",
@@ -251,7 +251,7 @@
         {
             "title": "SKOMIA",
             "type": "Desarrollo de videojuegos",
-            "description": "Desarrollo del videojuego SKOMIA centrado en la creacion e integración de assets y en la implementación de funcionalidades de gameplay dentro de Unreal Engine.",
+            "description": "Desarrollo del videojuego SKOMIA centrado en la creacion e integración de assets y en la implementación de funcionalidades de gameplay dentro de Unreal Engine con C++.",
             "duration": "2015 to 2017",
             "cardimage": "img-projects/skomia.png",
             "cardtext": "Explorar Proyecto",
@@ -263,6 +263,5 @@
             "deploy": "https://www.artstation.com/artwork/v55d6",
             "category": "sideProjects"
         }
-    
     ]
 }
