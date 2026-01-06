@@ -22,11 +22,11 @@ function App () {
         <section className='welcome'>
           <Welcome />
         </section>
-        <section className='projects' ref={projects}>
-          <Projects />
-        </section>
         <section className='skills' ref={skills}>
           <Skills />
+        </section>
+        <section className='projects' ref={projects}>
+          <Projects />
         </section>
       </main>
 
